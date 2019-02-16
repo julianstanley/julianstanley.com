@@ -1,42 +1,67 @@
-baseurl = "/"
+baseURL = "http://julianstanley.com/"
 languageCode = "en-us"
-title = "Julian Stanley's Website"
-theme = "hugo-lithium"
+title = "Julian Stanley"
+theme = "minimal"
 googleAnalytics = ""
-disqusShortname = ""
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
-
-[permalinks]
-    post = "/:year/:month/:day/:slug/"
-
-[[menu.main]]
-    name = "About"
-    url = "/about/"
-[[menu.main]]
-    name = "GitHub"
-    url = "https://github.com/julianstanley"
-[[menu.main]]
-    name = "Twitter"
-    url = "https://twitter.com/julianstanley_"
 
 [params]
-    description = "A website built through Hugo and blogdown."
+    author = "Julian Stanley"
+    description = "A repository of stuff that I've done"
+    image = "testing.png"
+    githubUsername = "#"
+    accent = "none"
+    showBorder = true
+    backgroundColor = "white"
+    font = "Raleway" # should match the name on Google Fonts!
+    highlight = true
+    highlightStyle = "solarized-dark"
+    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
 
-    # options for highlight.js (version, additional languages, and theme)
-    highlightjsVersion = "9.12.0"
-    highlightjsCDN = "//cdnjs.cloudflare.com/ajax/libs"
-    highlightjsLang = ["r", "yaml"]
-    highlightjsTheme = "github"
+[[menu.main]]
+    url = "/"
+    name = "Home"
+    weight = 1
 
-    MathJaxCDN = "//cdnjs.cloudflare.com/ajax/libs"
-    MathJaxVersion = "2.7.5"
+[[menu.main]]
+    url = "/post/"
+    name = "Posts"
+    weight = 2
 
-    # path to the favicon, under "static"
-    favicon = "favicon.ico"
+[[menu.main]]
+    url = "/project/"
+    name = "Projects"
+    weight = 3
+    
+[[menu.main]]
+    url = "tutorial"
+    name = "Tutorials"
+    weight = 4
 
-    [params.logo]
-    url = "logo.png"
-    width = 50
-    height = 50
-    alt = "Logo"
+# Social icons to be shown on the right-hand side of the navigation bar
+# The "name" field should match the name of the icon to be used
+# The list of available icons can be found at http://fontawesome.io/icons/
 
+[[menu.icon]]
+    url = "mailto:stanley.ju@husky.neu.edu"
+    name = "envelope-o"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://github.com/julianstanley/"
+    name = "github"
+    weight = 2
+
+[[menu.icon]]
+    url = "https://twitter.com/julianstanley_/"
+    name = "twitter"
+    weight = 3
+
+[[menu.icon]]
+    url = "https://www.linkedin.com/in/julianstanley/"
+    name = "linkedin"
+    weight = 4
+
+[[menu.icon]]
+    url = "https://www.stackoverflow.com/julianstanley/"
+    name = "stack-overflow"
+    weight = 5
