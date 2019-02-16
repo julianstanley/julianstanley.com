@@ -7,7 +7,6 @@ googleAnalytics = ""
 [params]
     author = "Julian Stanley"
     description = "A repository of stuff that I've done"
-    image = "testing.png"
     githubUsername = "#"
     accent = "none"
     showBorder = true
