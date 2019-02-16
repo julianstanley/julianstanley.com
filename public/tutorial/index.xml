@@ -6,6 +6,7 @@
     <description>Recent content in Tutorials on Julian Stanley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sat, 16 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tutorial/index.xml" rel="self" type="application/rss+xml" />
     
@@ -17,6 +18,20 @@
       
       <guid>/tutorial/genomania/</guid>
       <description>https://genomania.gitbook.io</description>
+    </item>
+    
+    <item>
+      <title>Written subject tutorials</title>
+      <link>/tutorial/tutorial/</link>
+      <pubDate>Sat, 16 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tutorial/tutorial/</guid>
+      <description>Genomania https://genomania.gitbook.io
+A guidebook for common tools in genomics and bioinformatics.
+For Reals Math https://for-reals.gitbook.io/
+Written tutorials covering select topics from calculus (through multivariable integration), linear algebra, and real analysis.
+ReadableAlgo https://readablealgo.gitbook.io
+Tutorials for common algorithmic problems and their solutions, along with some theory lessons.</description>
     </item>
     
   </channel>
