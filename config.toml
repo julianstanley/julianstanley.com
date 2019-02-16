@@ -1,4 +1,4 @@
-baseURL = "http://julianstanley.com/"
+baseURL = "https://julianstanley.com/"
 languageCode = "en-us"
 title = "Julian Stanley"
 theme = "minimal"
