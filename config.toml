@@ -7,7 +7,7 @@ googleAnalytics = ""
 [params]
     author = "Julian Stanley"
     description = "A repository of stuff that I've done"
-    githubUsername = "#"
+    githubUsername = "julianstanley"
     accent = "none"
     showBorder = true
     backgroundColor = "white"
