@@ -15,7 +15,7 @@ googleAnalytics = ""
     highlight = true
     highlightStyle = "solarized-dark"
     highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
-    copyright = "Powered by [Hugo](https://gohugo.io) and [Minimal](https://github.com/calintat/minimal). Thanks for visiting! [Website Source](https://github.com/julianstanley/julianstanley.com)"
+    copyright = "Powered by [Hugo](https://gohugo.io) and [Minimal](https://github.com/calintat/minimal). Thanks for visiting! [{Website Source}](https://github.com/julianstanley/julianstanley.com)"
 
 [[menu.main]]
     url = "/"
