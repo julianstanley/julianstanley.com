@@ -21,21 +21,26 @@ googleAnalytics = ""
     url = "/"
     name = "Home"
     weight = 1
+    
+[[menu.main]]
+    url = "/about/about"
+    name = "About"
+    weight = 2
 
 [[menu.main]]
     url = "/post/"
     name = "Posts"
-    weight = 2
+    weight = 3
 
 [[menu.main]]
     url = "/project/"
     name = "Projects"
-    weight = 3
+    weight = 4
     
 [[menu.main]]
     url = "/tutorial/tutorial"
     name = "Tutorials"
-    weight = 4
+    weight = 5
 
 # Social icons to be shown on the right-hand side of the navigation bar
 # The "name" field should match the name of the icon to be used
