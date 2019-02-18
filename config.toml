@@ -2,7 +2,7 @@ baseURL = "https://julianstanley.com/"
 languageCode = "en-us"
 title = "Julian Stanley"
 theme = "minimal"
-googleAnalytics = ""
+googleAnalytics = "UA-109124750-1"
 
 [params]
     author = "Julian Stanley"
