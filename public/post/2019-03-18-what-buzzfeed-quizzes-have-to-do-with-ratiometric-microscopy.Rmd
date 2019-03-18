@@ -11,6 +11,4 @@ tags:
   - communication
 ---
 
-
-
-<p>Testing!</p>
+Testing!

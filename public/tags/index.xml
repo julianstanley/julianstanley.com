@@ -6,10 +6,19 @@
     <description>Recent content in Tags on Julian Stanley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 16 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 18 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Communication</title>
+      <link>/tags/communication/</link>
+      <pubDate>Mon, 18 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/communication/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>New</title>
@@ -17,6 +26,33 @@
       <pubDate>Sat, 16 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/new/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>/tags/projects/</link>
+      <pubDate>Mon, 18 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ratiometric Microscopy</title>
+      <link>/tags/ratiometric-microscopy/</link>
+      <pubDate>Mon, 18 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/ratiometric-microscopy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rogfp</title>
+      <link>/tags/rogfp/</link>
+      <pubDate>Mon, 18 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/rogfp/</guid>
       <description></description>
     </item>
     

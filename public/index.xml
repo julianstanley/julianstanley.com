@@ -6,7 +6,7 @@
     <description>Recent content on Julian Stanley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 17 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 18 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
@@ -55,6 +55,15 @@ I got into the wet lab in February 2016. After learning the ropes, I began inves
       
       <guid>/project/teaching/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>What Buzzfeed Quizzes have to do with Ratiometric Microscopy</title>
+      <link>/post/buzzfeed-quizzes-ratiometric-microscopy/</link>
+      <pubDate>Mon, 18 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/buzzfeed-quizzes-ratiometric-microscopy/</guid>
+      <description>Testing!</description>
     </item>
     
     <item>
