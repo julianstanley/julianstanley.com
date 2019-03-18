@@ -1,0 +1,14 @@
+---
+title: What Buzzfeed Quizzes have to do with Ratiometric Microscopy
+author: Julian Stanley
+date: '2019-03-18'
+slug: buzzfeed-quizzes-ratiometric-microscopy
+categories: []
+tags:
+  - rogfp
+  - ratiometric microscopy
+  - projects
+  - communication
+---
+
+Testing!
