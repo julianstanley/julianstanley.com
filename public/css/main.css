@@ -55,7 +55,7 @@ a.icon:hover {
 }
 
 a:hover {
-    color: var(--accent) !important;
+    font-weight:bold;
 }
 
 /*paginator at bottom of list view*/
