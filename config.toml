@@ -5,6 +5,7 @@ theme = "minimal"
 googleAnalytics = "UA-109124750-1"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
+
 [params]
     author = "Julian Stanley"
     description = "A repository of stuff that I've done"
@@ -13,8 +14,8 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     showBorder = true
     font = "Raleway" # should match the name on Google Fonts!
     highlight = true
-    highlightStyle = "Googlecode"
-    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
+    highlightStyle = "Monokai Sublime"
+    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift", "R"]
     copyright = "Powered by [Hugo](https://gohugo.io) and [Minimal](https://github.com/calintat/minimal). Thanks for visiting! [{Website Source}](https://github.com/julianstanley/julianstanley.com)"
 [[menu.main]]
     url = "/"

@@ -62,7 +62,7 @@ version 1.9 or later. Your eventual url input should mimic that
 “connection string only” field.</li>
 </ul></li>
 </ol>
-<pre class="r"><code>options(mongodb = list(
+<pre><code>options(mongodb = list(
     &quot;cluster&quot; = &quot;sensoroverlordcluster&quot;,
     &quot;host&quot; = &quot;mnopd.mongodb.net&quot;,
     &quot;username&quot; = &quot;myself&quot;,
@@ -91,7 +91,7 @@ saveData &lt;- function(data) {
 <li>Once you use the <code>saveData(data)</code> function to save some data, you can
 load it right back up!</li>
 </ol>
-<pre class="r"><code>loadData &lt;- function() {
+<pre><code>loadData &lt;- function() {
     # Connect to the database
     db &lt;- mongo(collection = collectionName,
                 url = sprintf(
