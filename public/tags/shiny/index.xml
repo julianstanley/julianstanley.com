@@ -17,9 +17,7 @@
       <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://julianstanley.com/post/connecting-a-remote-mongodb-database-with-r-shiny/</guid>
-      <description>While making a Shiny App for a lab project (Sensor Overlord), I wanted to create a feature where users could input sensor data into a database, where it could be accessible to other users.
-I decided to give MongoDB a shot, mostly becuase of the free hosting services available on MongoDB’s website.
-And it was actually extremely straightforward. There are great resources available online, like the mongolite user manual and the shiny persistent data storage page.</description>
+      <description>a.sourceLine { display: inline-block; line-height: 1.25; } a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; } a.sourceLine:empty { height: 1.2em; } .sourceCode { overflow: visible; } code.sourceCode { white-space: pre; position: relative; } div.sourceCode { margin: 1em 0; } pre.sourceCode { margin: 0; } @media screen { div.sourceCode { overflow: auto; } } @media print { code.sourceCode { white-space: pre-wrap; } a.sourceLine { text-indent: -1em; padding-left: 1em; } } pre.</description>
     </item>
     
   </channel>

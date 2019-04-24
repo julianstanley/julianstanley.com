@@ -10,6 +10,10 @@ tags:
   - R
   - shiny
   - technical
+  
+output:
+  blogdown::html_page:
+    highlight: default
 ---
 
 While making a Shiny App for a lab project (Sensor Overlord), I wanted to create 
@@ -84,6 +88,9 @@ saveData <- function(data) {
     db$insert(data)
 }
 ```
+
+ 
+&nbsp;
 
 3. Once you use the `saveData(data)` function to save some data, you can
 load it right back up!
