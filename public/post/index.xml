@@ -2,31 +2,42 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Julian Stanley</title>
-    <link>/post/</link>
+    <link>https://julianstanley.com/post/</link>
     <description>Recent content in Posts on Julian Stanley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 18 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Apr 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://julianstanley.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Connecting a remote MongoDB database with R/Shiny</title>
+      <link>https://julianstanley.com/post/connecting-a-remote-mongodb-database-with-r-shiny/</link>
+      <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://julianstanley.com/post/connecting-a-remote-mongodb-database-with-r-shiny/</guid>
+      <description>While making a Shiny App for a lab project (Sensor Overlord), I wanted to create a feature where users could input sensor data into a database, where it could be accessible to other users.
+I decided to give MongoDB a shot, mostly becuase of the free hosting services available on MongoDB’s website.
+And it was actually extremely straightforward. There are great resources available online, like the mongolite user manual and the shiny persistent data storage page.</description>
+    </item>
+    
+    <item>
       <title>What Buzzfeed Quizzes have to do with Ratiometric Microscopy</title>
-      <link>/post/buzzfeed-quizzes-ratiometric-microscopy/</link>
+      <link>https://julianstanley.com/post/buzzfeed-quizzes-ratiometric-microscopy/</link>
       <pubDate>Mon, 18 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/buzzfeed-quizzes-ratiometric-microscopy/</guid>
+      <guid>https://julianstanley.com/post/buzzfeed-quizzes-ratiometric-microscopy/</guid>
       <description>Science is notoriously poorly communicated. I was recently browsing the DePace Lab Website and it linked me to a fantastic video called “Teaching Matters” by Professor Andrew Murray.
 My interest in science communication is nothing new, but the video nonetheless made me think twice about how I’m presenting my research. Not only does science need to be communicated to the public (who funds most university research) but it also needs to be better communicated to other scientists, especially those who may benefit from the research but who are in tangential fields with different jargon.</description>
     </item>
     
     <item>
       <title>Experience using Blogdown with Minimal template</title>
-      <link>/post/experience-using-blogdown-with-minimal-template/</link>
+      <link>https://julianstanley.com/post/experience-using-blogdown-with-minimal-template/</link>
       <pubDate>Sat, 16 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/experience-using-blogdown-with-minimal-template/</guid>
+      <guid>https://julianstanley.com/post/experience-using-blogdown-with-minimal-template/</guid>
       <description></description>
     </item>
     

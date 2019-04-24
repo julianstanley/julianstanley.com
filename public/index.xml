@@ -2,96 +2,107 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Julian Stanley</title>
-    <link>/</link>
+    <link>https://julianstanley.com/</link>
     <description>Recent content on Julian Stanley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 18 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Apr 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://julianstanley.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Apfeld Lab Projects (2015-Present)</title>
-      <link>/project/apfeld/</link>
+      <link>https://julianstanley.com/project/apfeld/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/project/apfeld/</guid>
+      <guid>https://julianstanley.com/project/apfeld/</guid>
       <description>I began my work in the Apfeld lab in October 2015. At that time, the lab was brand new and the wet lab space had not been set up yet. I briefly worked on learning and writing tutorials related to the analysis of spacial oxidization patterns in C. elegans, and we&amp;rsquo;ll come back to that in 2019.
 I got into the wet lab in February 2016. After learning the ropes, I began investigating the relationships between different transcription factors related to aging.</description>
     </item>
     
     <item>
       <title>Genomania</title>
-      <link>/tutorial/genomania/</link>
+      <link>https://julianstanley.com/tutorial/genomania/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tutorial/genomania/</guid>
+      <guid>https://julianstanley.com/tutorial/genomania/</guid>
       <description>https://genomania.gitbook.io</description>
     </item>
     
     <item>
       <title>Cygnal Therapeutics (2017-2018)</title>
-      <link>/project/cygnal/</link>
+      <link>https://julianstanley.com/project/cygnal/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/project/cygnal/</guid>
+      <guid>https://julianstanley.com/project/cygnal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Gunawardena Lab (2018)</title>
-      <link>/project/gunawardena/</link>
+      <link>https://julianstanley.com/project/gunawardena/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/project/gunawardena/</guid>
+      <guid>https://julianstanley.com/project/gunawardena/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Teaching</title>
-      <link>/project/teaching/</link>
+      <link>https://julianstanley.com/project/teaching/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/project/teaching/</guid>
+      <guid>https://julianstanley.com/project/teaching/</guid>
       <description></description>
     </item>
     
     <item>
+      <title>Connecting a remote MongoDB database with R/Shiny</title>
+      <link>https://julianstanley.com/post/connecting-a-remote-mongodb-database-with-r-shiny/</link>
+      <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://julianstanley.com/post/connecting-a-remote-mongodb-database-with-r-shiny/</guid>
+      <description>While making a Shiny App for a lab project (Sensor Overlord), I wanted to create a feature where users could input sensor data into a database, where it could be accessible to other users.
+I decided to give MongoDB a shot, mostly becuase of the free hosting services available on MongoDB’s website.
+And it was actually extremely straightforward. There are great resources available online, like the mongolite user manual and the shiny persistent data storage page.</description>
+    </item>
+    
+    <item>
       <title>What Buzzfeed Quizzes have to do with Ratiometric Microscopy</title>
-      <link>/post/buzzfeed-quizzes-ratiometric-microscopy/</link>
+      <link>https://julianstanley.com/post/buzzfeed-quizzes-ratiometric-microscopy/</link>
       <pubDate>Mon, 18 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/buzzfeed-quizzes-ratiometric-microscopy/</guid>
+      <guid>https://julianstanley.com/post/buzzfeed-quizzes-ratiometric-microscopy/</guid>
       <description>Science is notoriously poorly communicated. I was recently browsing the DePace Lab Website and it linked me to a fantastic video called “Teaching Matters” by Professor Andrew Murray.
 My interest in science communication is nothing new, but the video nonetheless made me think twice about how I’m presenting my research. Not only does science need to be communicated to the public (who funds most university research) but it also needs to be better communicated to other scientists, especially those who may benefit from the research but who are in tangential fields with different jargon.</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>/about/about/</link>
+      <link>https://julianstanley.com/about/about/</link>
       <pubDate>Sun, 17 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/about/about/</guid>
+      <guid>https://julianstanley.com/about/about/</guid>
       <description>Hi, I&amp;rsquo;m Julian. I&amp;rsquo;m a young researcher and I&amp;rsquo;ll graduate with a B.S. in Biology in June 2019 and an M.S. in Bioinformatics in May 2020 from Northeastern University.
 I would like to study the genetics and molecular biology of living things. Increasingly, that field involves more and more computation and, with the increased ability to model processes iteratively, the systems-level approach to molecular biology seems really promising. So I&amp;rsquo;m working on building and using bioinformatics and computational biology tools and models so that I can learn more new things about how life works.</description>
     </item>
     
     <item>
       <title>Experience using Blogdown with Minimal template</title>
-      <link>/post/experience-using-blogdown-with-minimal-template/</link>
+      <link>https://julianstanley.com/post/experience-using-blogdown-with-minimal-template/</link>
       <pubDate>Sat, 16 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/experience-using-blogdown-with-minimal-template/</guid>
+      <guid>https://julianstanley.com/post/experience-using-blogdown-with-minimal-template/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Written subject tutorials</title>
-      <link>/tutorial/tutorial/</link>
+      <link>https://julianstanley.com/tutorial/tutorial/</link>
       <pubDate>Sat, 16 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>/tutorial/tutorial/</guid>
+      <guid>https://julianstanley.com/tutorial/tutorial/</guid>
       <description>Genomania https://genomania.gitbook.io
 A guidebook for common tools in genomics and bioinformatics.
 For Reals Math https://for-reals.gitbook.io/

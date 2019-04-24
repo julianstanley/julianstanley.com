@@ -1,0 +1,108 @@
+---
+title: Connecting a remote MongoDB database with R/Shiny
+author: Julian Stanley
+date: '2019-04-24'
+slug: connecting-a-remote-mongodb-database-with-r-shiny
+categories:
+  - R
+tags:
+  - projects
+  - R
+  - shiny
+  - technical
+---
+
+
+
+<p>While making a Shiny App for a lab project (Sensor Overlord), I wanted to create
+a feature where users could input sensor data into a database, where it could
+be accessible to other users.</p>
+<p>I decided to give MongoDB a shot, mostly becuase of the free hosting services
+available on <a href="https://mongodb.com">MongoDB’s website</a>.</p>
+<p>And it was actually extremely straightforward. There are great resources
+available online, like
+<a href="https://jeroen.github.io/mongolite/">the mongolite user manual</a> and the
+<a href="https://shiny.rstudio.com/articles/persistent-data-storage.html">shiny persistent data storage page</a>.</p>
+<p>But it still took some troubleshooting on my part, so I wanted to share
+my mongodb.com-specific guide.</p>
+<div id="mongodb.com-free-cluster-setup-and-configuration" class="section level1">
+<h1>MongoDB.com free cluster setup and configuration</h1>
+<ol style="list-style-type: decimal">
+<li>Create an account on cloud.mongodb.com.</li>
+<li>Set up a basic (free) cluster, give it a name. I named mine SensorOverlordCluster.</li>
+<li>On the main cluster page, navigate to the “Security” tab and add a user.
+<ul>
+<li>I’ll give mine the username <em>myself</em> and the password <em>letmein</em>.</li>
+</ul></li>
+<li>Back on the “Overview” tab, click the name of your cluster.</li>
+<li>In the new screen that appears, click the “Collections” tab.</li>
+<li>Create a new database and write down the database and collection name.
+For mine, the database name was <em>sensordb</em> and the collection name was <em>responses</em>.</li>
+</ol>
+</div>
+<div id="writing-and-reading-mongodb-from-r" class="section level1">
+<h1>Writing and reading MongoDB from R</h1>
+<ol style="list-style-type: decimal">
+<li>Install the mongolite package
+<ul>
+<li>I’m running Ubuntu and had to run
+<code>sudo apt-get install libssl-dev libsasl2-dev</code> to get the dependencies I
+needed for my system. See the
+<a href="https://jeroen.github.io/mongolite/">the mongolite user manual</a> for
+more info specific to your system.</li>
+<li><code>install.packages(&quot;mongolite&quot;)</code> for the CRAN version or <code>devtools::install_   github(&quot;jeroen/mongolite&quot;)</code> for the development version.</li>
+</ul></li>
+<li>Save some data to your database. I’ll put the code below.
+<ul>
+<li>Note that the host should me mnopd.mongodb.net if you’re using mongodb.net’s
+hosting service. If that doesn’t work, check the base url that’s given when
+you click “connect” on the main overviewpage on cloud.mongodb.com,
+and then click “Connect Your Application” and set your driver as C
+version 1.9 or later. Your eventual url input should mimic that
+“connection string only” field.</li>
+</ul></li>
+</ol>
+<pre class="r"><code>options(mongodb = list(
+    &quot;cluster&quot; = &quot;sensoroverlordcluster&quot;,
+    &quot;host&quot; = &quot;mnopd.mongodb.net&quot;,
+    &quot;username&quot; = &quot;myself&quot;,
+    &quot;password&quot; = &quot;letmein&quot;
+))
+
+databaseName &lt;- &quot;sensordb&quot;
+collectionName &lt;- &quot;responses&quot;
+
+saveData &lt;- function(data) {
+    # Connect to the database
+    db &lt;- mongo(collection = collectionName,
+                url = sprintf(
+                    &quot;mongodb+srv://%s:%s@%s-%s/%s?retryWrites=true&quot;,
+                    options()$mongodb$username,
+                    options()$mongodb$password,
+                    options()$mongodb$cluster,
+                    options()$mongodb$host,
+                    databaseName))
+    
+    # Insert the data into the mongo collection as a data.frame
+    data &lt;- as.data.frame(data)
+    db$insert(data)
+}</code></pre>
+<ol start="3" style="list-style-type: decimal">
+<li>Once you use the <code>saveData(data)</code> function to save some data, you can
+load it right back up!</li>
+</ol>
+<pre class="r"><code>loadData &lt;- function() {
+    # Connect to the database
+    db &lt;- mongo(collection = collectionName,
+                url = sprintf(
+                    &quot;mongodb+srv://%s:%s@%s/%s&quot;,
+                    options()$mongodb$username,
+                    options()$mongodb$password,
+                    options()$mongodb$host,
+                    databaseName))
+    
+    # Read all the entries
+    data_output &lt;- db$find()
+    data_output
+}</code></pre>
+</div>

@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+         
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Connecting a remote MongoDB database with R/Shiny</title>
+        
+        <style>
+
+    html body {
+        font-family: 'Raleway', sans-serif;
+        background-color: white;
+    }
+
+    :root {
+        --accent: white;
+        --border-width:  5px ;
+    }
+
+</style>
+
+
+<link rel="stylesheet" href="https://julianstanley.com/css/main.css">
+
+
+
+
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/Googlecode.min.css"> 
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ 
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/go.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/haskell.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/kotlin.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/scala.min.js"></script>  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/swift.min.js"></script> 
+
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
+ <meta name="generator" content="Hugo 0.52" />
+        
+
+        
+        
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109124750-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments)};
+          gtag('js', new Date());
+
+          gtag('config', 'UA-109124750-1');
+        </script>
+        
+    </head>
+
+    
+    
+    <script type="text/javascript" async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+    </script>
+    
+
+    <body>
+         
+        <nav class="navbar navbar-default navbar-fixed-top">
+
+            <div class="container">
+
+                <div class="navbar-header">
+
+                    <a class="navbar-brand visible-xs" href="#">Connecting a remote MongoDB database with R/Shiny</a>
+
+                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+
+                <div class="collapse navbar-collapse">
+
+                    
+                        <ul class="nav navbar-nav">
+                            
+                                <li><a href="/">Home</a></li>
+                            
+                                <li><a href="/about/about">About</a></li>
+                            
+                                <li><a href="/post/">Posts</a></li>
+                            
+                                <li><a href="/project/">Projects</a></li>
+                            
+                                <li><a href="/tutorial/tutorial">Tutorials</a></li>
+                            
+                        </ul>
+                    
+
+                    
+                        <ul class="nav navbar-nav navbar-right">
+                            
+                                <li class="navbar-icon"><a href="mailto:stanley.ju@husky.neu.edu"><i class="fa fa-envelope-o"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://github.com/julianstanley/"><i class="fa fa-github"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://twitter.com/julianstanley_/"><i class="fa fa-twitter"></i></a></li>
+                            
+                                <li class="navbar-icon"><a href="https://www.linkedin.com/in/julianstanley/"><i class="fa fa-linkedin"></i></a></li>
+                            
+                        </ul>
+                    
+
+                </div>
+
+            </div>
+
+        </nav>
+
+
+<main>
+
+    <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/post/connecting-a-remote-mongodb-database-with-r-shiny/">Connecting a remote MongoDB database with R/Shiny</a></h4>
+    <h5>April 24, 2019</h5>
+    
+    <a href="https://julianstanley.com/tags/projects"><kbd class="item-tag">projects</kbd></a>
+    
+    <a href="https://julianstanley.com/tags/r"><kbd class="item-tag">R</kbd></a>
+    
+    <a href="https://julianstanley.com/tags/shiny"><kbd class="item-tag">shiny</kbd></a>
+    
+    <a href="https://julianstanley.com/tags/technical"><kbd class="item-tag">technical</kbd></a>
+    
+
+</div>
+
+
+    <br> <div class="text-justify">
+
+
+<p>While making a Shiny App for a lab project (Sensor Overlord), I wanted to create
+a feature where users could input sensor data into a database, where it could
+be accessible to other users.</p>
+<p>I decided to give MongoDB a shot, mostly becuase of the free hosting services
+available on <a href="https://mongodb.com">MongoDB’s website</a>.</p>
+<p>And it was actually extremely straightforward. There are great resources
+available online, like
+<a href="https://jeroen.github.io/mongolite/">the mongolite user manual</a> and the
+<a href="https://shiny.rstudio.com/articles/persistent-data-storage.html">shiny persistent data storage page</a>.</p>
+<p>But it still took some troubleshooting on my part, so I wanted to share
+my mongodb.com-specific guide.</p>
+<div id="mongodb.com-free-cluster-setup-and-configuration" class="section level1">
+<h1>MongoDB.com free cluster setup and configuration</h1>
+<ol style="list-style-type: decimal">
+<li>Create an account on cloud.mongodb.com.</li>
+<li>Set up a basic (free) cluster, give it a name. I named mine SensorOverlordCluster.</li>
+<li>On the main cluster page, navigate to the “Security” tab and add a user.
+<ul>
+<li>I’ll give mine the username <em>myself</em> and the password <em>letmein</em>.</li>
+</ul></li>
+<li>Back on the “Overview” tab, click the name of your cluster.</li>
+<li>In the new screen that appears, click the “Collections” tab.</li>
+<li>Create a new database and write down the database and collection name.
+For mine, the database name was <em>sensordb</em> and the collection name was <em>responses</em>.</li>
+</ol>
+</div>
+<div id="writing-and-reading-mongodb-from-r" class="section level1">
+<h1>Writing and reading MongoDB from R</h1>
+<ol style="list-style-type: decimal">
+<li>Install the mongolite package
+<ul>
+<li>I’m running Ubuntu and had to run
+<code>sudo apt-get install libssl-dev libsasl2-dev</code> to get the dependencies I
+needed for my system. See the
+<a href="https://jeroen.github.io/mongolite/">the mongolite user manual</a> for
+more info specific to your system.</li>
+<li><code>install.packages(&quot;mongolite&quot;)</code> for the CRAN version or <code>devtools::install_   github(&quot;jeroen/mongolite&quot;)</code> for the development version.</li>
+</ul></li>
+<li>Save some data to your database. I’ll put the code below.
+<ul>
+<li>Note that the host should me mnopd.mongodb.net if you’re using mongodb.net’s
+hosting service. If that doesn’t work, check the base url that’s given when
+you click “connect” on the main overviewpage on cloud.mongodb.com,
+and then click “Connect Your Application” and set your driver as C
+version 1.9 or later. Your eventual url input should mimic that
+“connection string only” field.</li>
+</ul></li>
+</ol>
+<pre class="r"><code>options(mongodb = list(
+    &quot;cluster&quot; = &quot;sensoroverlordcluster&quot;,
+    &quot;host&quot; = &quot;mnopd.mongodb.net&quot;,
+    &quot;username&quot; = &quot;myself&quot;,
+    &quot;password&quot; = &quot;letmein&quot;
+))
+
+databaseName &lt;- &quot;sensordb&quot;
+collectionName &lt;- &quot;responses&quot;
+
+saveData &lt;- function(data) {
+    # Connect to the database
+    db &lt;- mongo(collection = collectionName,
+                url = sprintf(
+                    &quot;mongodb+srv://%s:%s@%s-%s/%s?retryWrites=true&quot;,
+                    options()$mongodb$username,
+                    options()$mongodb$password,
+                    options()$mongodb$cluster,
+                    options()$mongodb$host,
+                    databaseName))
+    
+    # Insert the data into the mongo collection as a data.frame
+    data &lt;- as.data.frame(data)
+    db$insert(data)
+}</code></pre>
+<ol start="3" style="list-style-type: decimal">
+<li>Once you use the <code>saveData(data)</code> function to save some data, you can
+load it right back up!</li>
+</ol>
+<pre class="r"><code>loadData &lt;- function() {
+    # Connect to the database
+    db &lt;- mongo(collection = collectionName,
+                url = sprintf(
+                    &quot;mongodb+srv://%s:%s@%s/%s&quot;,
+                    options()$mongodb$username,
+                    options()$mongodb$password,
+                    options()$mongodb$host,
+                    databaseName))
+    
+    # Read all the entries
+    data_output &lt;- db$find()
+    data_output
+}</code></pre>
+</div>
+</div>
+
+    
+    
+
+    
+
+        <h4 class="page-header">Related</h4>
+
+         <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/post/buzzfeed-quizzes-ratiometric-microscopy/">What Buzzfeed Quizzes have to do with Ratiometric Microscopy</a></h4>
+    <h5>March 18, 2019</h5>
+    
+    <a href="https://julianstanley.com/tags/rogfp"><kbd class="item-tag">rogfp</kbd></a>
+    
+    <a href="https://julianstanley.com/tags/ratiometric-microscopy"><kbd class="item-tag">ratiometric microscopy</kbd></a>
+    
+    <a href="https://julianstanley.com/tags/projects"><kbd class="item-tag">projects</kbd></a>
+    
+    <a href="https://julianstanley.com/tags/communication"><kbd class="item-tag">communication</kbd></a>
+    
+
+</div>
+ 
+
+    
+
+    
+
+</main>
+
+        <footer>
+
+            <p class="copyright text-muted">Powered by <a href="https://gohugo.io">Hugo</a> and <a href="https://github.com/calintat/minimal">Minimal</a>. Thanks for visiting! <a href="https://github.com/julianstanley/julianstanley.com">{Website Source}</a></p>
+
+        </footer>
+       
+    </body>
+
+</html>
+
