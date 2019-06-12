@@ -23,6 +23,11 @@
   </url>
   
   <url>
+    <loc>https://julianstanley.com/post/upgrading-to-a-larger-ssd-on-ubuntu/</loc>
+    <lastmod>2019-05-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://julianstanley.com/post/connecting-a-remote-mongodb-database-with-r-shiny/</loc>
     <lastmod>2019-04-24T00:00:00+00:00</lastmod>
   </url>
@@ -48,6 +53,10 @@
   </url>
   
   <url>
+    <loc>https://julianstanley.com/post/2019-05-05-upgrading-to-a-larger-ssd-on-ubuntu/</loc>
+  </url>
+  
+  <url>
     <loc>https://julianstanley.com/about/</loc>
     <lastmod>2019-02-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -65,8 +74,14 @@
   </url>
   
   <url>
+    <loc>https://julianstanley.com/tags/installation/</loc>
+    <lastmod>2019-05-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://julianstanley.com/</loc>
-    <lastmod>2019-04-24T00:00:00+00:00</lastmod>
+    <lastmod>2019-05-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -78,7 +93,7 @@
   
   <url>
     <loc>https://julianstanley.com/post/</loc>
-    <lastmod>2019-04-24T00:00:00+00:00</lastmod>
+    <lastmod>2019-05-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -131,13 +146,19 @@
   
   <url>
     <loc>https://julianstanley.com/tags/technical/</loc>
-    <lastmod>2019-04-24T00:00:00+00:00</lastmod>
+    <lastmod>2019-05-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://julianstanley.com/tutorial/</loc>
     <lastmod>2019-02-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://julianstanley.com/categories/ubuntu/</loc>
+    <lastmod>2019-05-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

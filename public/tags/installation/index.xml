@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Installation on Julian Stanley</title>
+    <link>https://julianstanley.com/tags/installation/</link>
+    <description>Recent content in Installation on Julian Stanley</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 05 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://julianstanley.com/tags/installation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Upgrading to a larger SSD on Ubuntu</title>
+      <link>https://julianstanley.com/post/upgrading-to-a-larger-ssd-on-ubuntu/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://julianstanley.com/post/upgrading-to-a-larger-ssd-on-ubuntu/</guid>
+      <description>Today I upgraded the base 256 GB SSD (2.5 mm) on my Thinkpad T460 to a 1 TB Samsung 860 EVO.
+It took me a few google searches to learn how to make the transition. In the end, I used Tuxboot to make a bootable Clonezilla USB drive, and then GParted to resize my partition. Here&amp;rsquo;s what I did step-by-step:
+ Connect your new SSD via USB. I used a StarTech cable from Amazon.</description>
+    </item>
+    
+  </channel>
+</rss>

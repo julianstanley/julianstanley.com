@@ -4,7 +4,7 @@
          
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Genomania</title>
+        <title>Upgrading to a larger SSD on Ubuntu</title>
         
         <style>
 
@@ -90,7 +90,7 @@
 
                 <div class="navbar-header">
 
-                    <a class="navbar-brand visible-xs" href="#">Genomania</a>
+                    <a class="navbar-brand visible-xs" href="#">Upgrading to a larger SSD on Ubuntu</a>
 
                     <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
                         <span class="icon-bar"></span>
@@ -147,28 +147,72 @@
 
     
     
-        
-        
-            
-        
-    
     
 
     
-      
+    
 
-    <h4><a href="https://github.com/julianstanley/#/">Genomania</a></h4>
-    <h5>A guidebook for common tools in genomics and bioinformatics.</h5>
+    <h4><a href="/post/upgrading-to-a-larger-ssd-on-ubuntu/">Upgrading to a larger SSD on Ubuntu</a></h4>
+    <h5>May 5, 2019</h5>
+    
+    <a href="https://julianstanley.com/tags/technical"><kbd class="item-tag">technical</kbd></a>
+    
+    <a href="https://julianstanley.com/tags/installation"><kbd class="item-tag">installation</kbd></a>
     
 
 </div>
 
 
-    <br> <div class="text-justify"><p><a href="https://genomania.gitbook.io">https://genomania.gitbook.io</a></p>
+    <br> <div class="text-justify"><p>Today I upgraded the base 256 GB SSD (2.5 mm) on my Thinkpad T460 to a 1 TB <a href="https://www.amazon.com/gp/product/B078DPCY3T/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&amp;psc=1">Samsung 860 EVO</a>.</p>
+
+<p>It took me a few google searches to learn how to make the transition. In the end, I used Tuxboot to make a bootable Clonezilla USB drive, and then GParted to resize my partition. Here&rsquo;s what I did step-by-step:</p>
+
+<ol>
+<li>Connect your new SSD via USB. I used <a href="https://www.amazon.com/gp/product/B00HJZJI84/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&amp;psc=1">a StarTech cable from Amazon</a>.</li>
+<li>Download Tuxboot (from the <a href="https://sourceforge.net/projects/tuxboot/files/">SourceForce Repo</a>).</li>
+<li>Extract and install Tuxboot.
+
+<ul>
+<li>I needed to run <code>apt-get install libqt4-dev</code>, <code>apt-get install mtools</code>, and then <code>./INSTALL</code>.</li>
+</ul></li>
+<li>Run <code>sudo ./tuxboot</code> to run the tuxboot GUI. On the first line, select &ldquo;On-Line Distribution&rdquo; and &ldquo;clonezilla_live_stable&rdquo;, connect an empty USB drive, select that drive on the last line, and click &ldquo;OK&rdquo;.</li>
+<li>After tuxboot makes a bootable clonezilla USB, boot from that USB.</li>
+<li>Follow the disk-to-disk clone tutorial from on the <a href="https://clonezilla.org/show-live-doc-content.php?topic=clonezilla-live/doc/03_Disk_to_disk_clone">Clonezilla website</a>.</li>
+<li>After restarting, download Gparted with <code>sudo apt-get gparted</code>. Follow the instructions in the GUI to resize the new disk to the full ~950 GB.</li>
+<li>Physically install the new SSD, and you should be good to go!</li>
+</ol>
 </div>
 
     
     
+
+    
+
+        <h4 class="page-header">Related</h4>
+
+         <div class="item">
+
+    
+    
+    
+
+    
+    
+
+    <h4><a href="/post/connecting-a-remote-mongodb-database-with-r-shiny/">Connecting a remote MongoDB database with R/Shiny</a></h4>
+    <h5>April 24, 2019</h5>
+    
+    <a href="https://julianstanley.com/tags/projects"><kbd class="item-tag">projects</kbd></a>
+    
+    <a href="https://julianstanley.com/tags/r"><kbd class="item-tag">R</kbd></a>
+    
+    <a href="https://julianstanley.com/tags/shiny"><kbd class="item-tag">shiny</kbd></a>
+    
+    <a href="https://julianstanley.com/tags/technical"><kbd class="item-tag">technical</kbd></a>
+    
+
+</div>
+ 
 
     
 
