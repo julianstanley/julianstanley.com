@@ -23,6 +23,11 @@
   </url>
   
   <url>
+    <loc>https://julianstanley.com/writing/experience-using-blogdown-with-minimal-template/</loc>
+    <lastmod>2019-06-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://julianstanley.com/post/upgrading-to-a-larger-ssd-on-ubuntu/</loc>
     <lastmod>2019-05-05T00:00:00+00:00</lastmod>
   </url>
@@ -81,7 +86,7 @@
   
   <url>
     <loc>https://julianstanley.com/</loc>
-    <lastmod>2019-05-05T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -159,6 +164,12 @@
   <url>
     <loc>https://julianstanley.com/categories/ubuntu/</loc>
     <lastmod>2019-05-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://julianstanley.com/writing/</loc>
+    <lastmod>2019-06-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

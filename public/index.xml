@@ -6,7 +6,7 @@
     <description>Recent content on Julian Stanley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 05 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 16 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://julianstanley.com/index.xml" rel="self" type="application/rss+xml" />
     
@@ -55,6 +55,19 @@ I got into the wet lab in February 2016. After learning the ropes, I began inves
       
       <guid>https://julianstanley.com/project/teaching/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Interdisciplinary Project Proposal</title>
+      <link>https://julianstanley.com/writing/experience-using-blogdown-with-minimal-template/</link>
+      <pubDate>Sun, 16 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://julianstanley.com/writing/experience-using-blogdown-with-minimal-template/</guid>
+      <description>Standardizing Data Security in a Genomic Era
+Khailah Griffin and Julian Stanley
+Interdisciplinary Advanced Writing, Northeastern University
+June 02, 2019
+Abstract From whole genome sequencing to 23andMe, healthcare and medicine are increasingly supplemented by large amounts of genomic data. This relatively recent phenomenon has prompted concerns about personal data security. While experts have made great strides in securing sensitive datasets in the last decade, there remains a great deal of work to be done.</description>
     </item>
     
     <item>

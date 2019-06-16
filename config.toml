@@ -41,11 +41,16 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     url = "/tutorial/tutorial"
     name = "Tutorials"
     weight = 5
+    
+[[menu.main]]
+    url = "/writing/"
+    name = "Writing Samples"
+    weight = 6
 
 [[menu.main]]
     url = "https://scholar.google.com/citations?hl=en&user=uYv-IJ8AAAAJ"
     name = "Google Scholar"
-    weight = 6
+    weight = 7
 
 # Social icons to be shown on the right-hand side of the navigation bar
 # The "name" field should match the name of the icon to be used
