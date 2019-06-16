@@ -1,0 +1,395 @@
+---
+title: Interdisciplinary Project Proposal
+author: Julian Stanley 
+date: '2019-06-16'
+slug: experience-using-blogdown-with-minimal-template
+categories: []
+tags: []
+---
+
+Read here or see the fully-rendered site at [geneinfo](geneinfo.julianstanley.com)
+
+
+::: {#main}
+-   [Overview](#welcome)
+-   [Genome?](#genome)
+-   [Clinical Tests](#clinical)
+-   [DTC Testing](#dtc)
+-   [Safety & Privacy](#security)
+-   [Wrapping up & Resources](#resources)
+
+::: {#welcome .section .p-welcome}
+::: {.container}
+Welcome to Gene Info!
+=====================
+
+This is a website about understanding your genomic data in an era of
+data encryption, huge healthcare data, and consumer testing companies
+like 23andMe.
+
+I hope that this webpage is informational and can help you better
+understand how your genome data affects your life, and how it is kept
+safe. This short project was developed as a writing assignment for
+[Northeastern University's Interdiscplinary Advanced
+Writing](https://www.northeastern.edu/writing/advanced-writing-in-the-disciplines/)
+course in Summer 2019.
+:::
+:::
+
+::: {#genome .section .p-genome}
+::: {.subtlecircle .sectiondivider .faicon}
+[ ]{.fa-stack}
+:::
+
+::: {.container}
+What is my genome?
+==================
+
+In short: your
+[genome](https://www.yourgenome.org/facts/what-is-a-genome) is just a
+collection of all of your genes, the chemical instructions that your
+body uses to grow and live.
+
+More specifically, your genome is a *chemical* found at the center of
+each of your body's millions of cells. Your genome is mostly made of the
+compound called DNA, which itself is made of a long string of four
+smaller chemicals, called DNA "bases", which we abbreviate 'A', 'T',
+'C', and 'G'. (^[1](#fn:1){.footnote}^,^[2](#fn:2){.footnote}^) Most of
+your DNA is inherited---half from your biological mother and half from
+your biological father.
+
+DNA is like a recipe book that your cells use to keep you alive. The
+genetic recipe book is huge: if you printed all of the 'A', 'T', 'C',
+and 'G' letters, it would be over [500 times
+larger](https://www.veritasgenetics.com/our-thinking/whole-story) than
+Proust's *a la recherche du temps perdu*, the [longest novel
+written](https://www.bbc.com/teach/live-lessons/5-fascinating-book-facts/zbrdy9q).
+Your cells use DNA recipes to make proteins, the microscopic machines
+that keep your body up-and-running. (^[3](#fn:3){.footnote}^)
+
+
+
+Cells never use all their DNA. Instead, they choose which DNA recipes to
+make. For example, while muscle and brain cells have the same DNA copy,
+they make different proteins to perform their different roles.
+
+DNA affects your health, but it's not the only player. You may have
+heard about "nature v.s. nurture" in determining traits like blood
+pressure or personality. Most traits are affected by **both** genes and
+the environment. (^[4](#fn:4){.footnote}^) For example, people have
+different types of the gene that makes insulin, the protein that digests
+sugars. Because of these genetic differences, people can be more or less
+likely be overweight or develop diabetes. That's a nature part. But
+nurture still matters: someone who eats a dozen donuts for breakfast
+daily will be at higher risk for diabetes, regardless of their genetics.
+
+------------------------------------------------------------------------
+
+::: {.footnotes}
+1.  ::: {#fn:1}
+    The DNA letters stand for the chemicals **A**denine, **T**hymine,
+    **C**ytosine, and **G**uanine. [↩](#fnref:1){.reversefootnote}
+    :::
+
+2.  ::: {#fn:2}
+    Technically, DNA is made up of smaller chemicals called nucleotides.
+    Nucleotides have three parts, one of which is the DNA base. Since
+    you can tell nucleotides apart by looking at their base (A, T, C, or
+    G), we use those letters to identify
+    them. [↩](#fnref:2){.reversefootnote}
+    :::
+
+3.  ::: {#fn:3}
+    Literally! For example, some proteins have designs that look just
+    like [modern
+    motors](https://www.thunderbolts.info/wp/2017/12/15/flagellar-motors-3/).
+    These structures are so astounding and complex that they have
+    historically been used to argue [against the well-established model
+    of
+    evolution](https://historynewsnetwork.org/article/129214). [↩](#fnref:3){.reversefootnote}
+    :::
+
+4.  ::: {#fn:4}
+    In fact, there are whole fields of study where traits are given
+    actual *numbers* to describe how [much of that trait comes from
+    genes and how much is from the
+    environment.](https://web.archive.org/web/20190120081954/https://www.nature.com/scitable/topicpage/estimating-trait-heritability-46889). [↩](#fnref:4){.reversefootnote}
+    :::
+:::
+:::
+:::
+
+::: {#clinical .section .p-clinical}
+::: {.subtlecircle .sectiondivider .faicon}
+[ ]{.fa-stack}
+:::
+
+::: {.container}
+Clinical Genomic Testing
+========================
+
+Since DNA can affect your health, hospitals and doctors will sometimes
+order DNA tests in addition to more traditional medical tests.
+
+There are [different types of genetic
+tests](https://www.cdc.gov/genomics/gtesting/genetic_testing.htm) that
+might be ordered by a doctor. For example, if parents have a family
+history of a genetic disease like [sickle-cell
+anemia](https://www.cdc.gov/ncbddd/sicklecell/facts.html) or [Tay-Sachs
+disease](https://www.mayoclinic.org/diseases-conditions/tay-sachs-disease/symptoms-causes/syc-20378190),
+they might have a specific genetic test that checks whether they are
+likely to give that disease to their children.
+
+Fetuses themselves are often tested as well, both for specific genes
+(which can cause diseases like cystic fibrosis) and for large changes in
+chromosomes (^[1](#fn:5){.footnote}^) that can cause diseases like Down
+Syndrome.
+
+Clinical tests can also be important for diagnosis of *susceptibility*
+to certain diseases. This includes testing for the BRCA1/2 genes, which
+can indicate how likely a patient is to develop a certain types of
+ovarian and breast cancers. After positve susceptibility testing, some
+patients may decide to take proactive measures. ^[2](#fn:6){.footnote}^
+
+
+Importantly, most clinical genomic testing is looks for something very
+specific. In contrast, newer technologies, like sequencing the entire
+genome or [all the DNA that makes
+proteins](https://ghr.nlm.nih.gov/primer/testing/sequencing), can be
+used without any particular disease or gene in mind. While these tests
+can reveal [secondary
+findings](https://ghr.nlm.nih.gov/primer/testing/secondaryfindings),
+such as the terrifying prospect of [accidentally uncovering an incurable
+genetic
+disease](https://www.nature.com/news/2008/081029/full/4551155a.html),
+there is some promise for such exploratory tests to reveal new insights
+into complicated traits such as [cardiovascular
+health](https://www.vox.com/science-and-health/2018/8/24/17759772/genetics-polygenic-risk-heart-disease-nature).
+
+------------------------------------------------------------------------
+
+::: {.footnotes}
+1.  ::: {#fn:5}
+    Genetic screening in infants is generally performed through a
+    procedure called
+    [amniocentesis](https://www.mayoclinic.org/tests-procedures/amniocentesis/about/pac-20392914). [↩](#fnref:5){.reversefootnote}
+    :::
+
+2.  ::: {#fn:6}
+    Angelina Jolie famously undertook a [double mastectomy in
+    2013](https://canceraustralia.gov.au/about-us/news/angelina-jolies-surgery-reduce-her-risk-ovarian-cancer)
+    after discovering that she carried the BRCA1
+    gene. [↩](#fnref:6){.reversefootnote}
+    :::
+:::
+:::
+:::
+
+::: {#dtc .section .p-dtc}
+::: {.subtlecircle .sectiondivider .faicon}
+[ ]{.fa-stack}
+:::
+
+::: {.container}
+Direct to Consumer (DTC) Tests
+==============================
+
+Companies like 23andMe, Veritas, Color, and Ancestry market at-home
+genetic testing directly to consumers.
+
+They work by either sequencing your whole genome or sequencing around
+one million base pairs in your genome (array-based sequencing).
+
+Let's start with array-based sequencing. The average person has around 3
+billion DNA bases, but only less than 1% of those bases (around 20
+million) vary, on average. If you just sequence about a million DNA
+bases, you can learn some things about health, and a good few things
+about ancestry.
+
+Ancestry and 23andMe all use array-based sequencing to predict where
+your ancestors came from. Their ancestry predictions are based on their
+database of genetic information--so they are usually much more accurate
+for people of European descent.
+
+23andMe and Color use array-based sequencing to predict health traits.
+Until last year, none of these tests were FDA approved. Then, 23andMe
+approval for tests for a handful of genes, including the BRCA1 cancer
+genes. Still, their results are still not diagnostic, and should not be
+used to make any medical choices. (^[1](#fn:7){.footnote}^)
+
+Companies like Veritas offer whole-genome sequencing for health
+purposes, and require a doctor's order. (^[2](#fn:8){.footnote}^).
+Instead of just sequencing around one million genetic variants, they
+sequence the entire, 3-billion base-pair genome, for somewhere between
+\$200 and \$1000. Veritas argues that whole-genome sequencing can reveal
+health (and ancestry) insights that array-based sequencing cannot, but
+the industry is still poorly regulated and cannot diagnose disease.
+
+Overall: at this point in time, DTC genomic tests should be treated as a
+novelty. Their ancestry tests are not always accurate, and their health
+tests have limited uses, and can often cause unnecessary panic.
+
+::: {.footnotes}
+1.  ::: {#fn:7}
+    This is because, for example, BRCA1 does cause cancer, just slightly
+    increases your chances, and having a normal BRCA1 gene does not
+    significantly change your risk for cancer overall. Part of the
+    reason why 23andMe has gotten FDA approval is because their
+    educational material is fantastic (although, some argue that
+    consumers still misinterpret genetic data, since it takes a lot of
+    time and effort to read educational material). For example, you
+    might want to take a look at their [BRCA info
+    page](https://www.23andme.com/brca). [↩](#fnref:7){.reversefootnote}
+    :::
+
+2.  ::: {#fn:8}
+    Companies like Veritas have attracted scrutiny for having a network
+    of doctors who are willing to order genetic tests for essentially
+    [anyone who wants
+    them](https://www.statnews.com/2018/03/16/genetic-tests-fda-regulation/). [↩](#fnref:8){.reversefootnote}
+    :::
+:::
+:::
+:::
+
+::: {#security .section .p-security}
+::: {.subtlecircle .sectiondivider .faicon}
+[ ]{.fa-stack}
+:::
+
+::: {.container}
+How is my genomic data kept safe?
+=================================
+
+Commercial companies share customer data, but usually on an opt-in
+basis. \~[80%](https://mediacenter.23andme.com/company/about-us/) of
+23andMe customers agree to let their data be shared for research.
+
+Other companies let people upload their genomes to find relatives. One
+example is [GEDmatch](https://www.gedmatch.com/) , which was important
+in resolving the [Golden State
+Killer](https://www.sciencemag.org/news/2018/10/we-will-find-you-dna-search-used-nab-golden-state-killer-can-home-about-60-white)
+case.
+
+Websites like GEDmatch are possible because DNA is very similar between
+relatives. So, even if your DNA has not been sequenced, you can be
+identified via your relatives.
+
+
+Genetic data can be used to discriminate against employees. For example,
+in 2002 a railroad company forced its employees to undergo a genetic
+test. They [faced disciplinary
+action](https://www.eeoc.gov/eeoc/newsroom/release/5-8-02.cfm) but, if
+genomic data was public, they may have been able to discriminate without
+attracting as much attention. (^[1](#fn:9){.footnote}^)
+
+So, how liable is your genomic data to becoming public?
+
+Genome testing companies and hospitals encrypt
+(^[2](#fn:10){.footnote}^) identifying information before sharing data.
+They then decide whether or not identifying information can be
+re-accessed with a password (^[3](#fn:11){.footnote}^).
+
+But, even with encryption, genomic data can be re-identified with some
+effort. And, as we saw with the GEDmatch example, your distant relatives
+genomes can be used to identify you.
+
+Further, hackers don't need to reveal whole genomes. For example, when
+James Watson released his DNA in 2008, he chose to keep the APOE
+gene--which is associated with Alzheimer's disease--private. But, based
+on statistical models, (^[4](#fn:12){.footnote}^) it was relatively
+straightforward to infer his APOE genotype from his other genes.
+
+The take-away is: whenever you submit your DNA to a company or a
+hospital, ask about their data privacy practices. Even if small amounts
+of your DNA sequence are released, it could reveal private aspects of
+your health and the health of your relatives to individuals and
+organizations that could discriminate against you on the basis of that
+information.
+
+::: {.footnotes}
+1.  ::: {#fn:9}
+    The U.S. has the [Genetic Information Nondiscrimination
+    Act](https://www.eeoc.gov/laws/statutes/gina.cfm) that bars health
+    insurance companies for discriminating based on genetics, but does
+    not apply to life insurance or
+    employers. [↩](#fnref:9){.reversefootnote}
+    :::
+
+2.  ::: {#fn:10}
+    Encryption is just the process of making secret messages. When you
+    were growing up, you may have written secret messages to your
+    friends, and that was a form of encryption. You may have told your
+    friend that letters would be shifted--e.g. "A" actually meant "B",
+    "B" meant "C", etc. So the message "Hello" would have been written
+    "Gdkkn". That *is* encryption, but mathematicians and computer
+    scientists have developed a lot of sophisticated techniques to make
+    encryption harder to crack than a simple cipher. I think that most
+    articles online about encryption are overly complicated--if you want
+    to read more, I recommend that you start with [this simple Wikipedia
+    page](https://simple.wikipedia.org/wiki/Encryption) to get the idea,
+    and then take a look at the [RSA encryption
+    algorithm](https://simple.wikipedia.org/wiki/RSA_algorithm), which a
+    common modern technique. [↩](#fnref:10){.reversefootnote}
+    :::
+
+3.  ::: {#fn:11}
+    This is a pretty dense topic, but it's absolutely worth getting
+    into, if you have time. [This open-access academic
+    paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5894154/) is a
+    great resource, if you're
+    interested. [↩](#fnref:11){.reversefootnote}
+    :::
+
+4.  ::: {#fn:12}
+    These models are called **imputation**, and they're really common in
+    research. It lets researchers use small amounts of genetic testing
+    to reconstruct most of the genome (remember, 99.9% of our genes are
+    identical, so it's not as monumental of a task as it may
+    seem). [↩](#fnref:12){.reversefootnote}
+    :::
+:::
+:::
+:::
+
+::: {#resources .section .p-resources}
+::: {.subtlecircle .sectiondivider .faicon}
+[ ]{.fa-stack}
+:::
+
+::: {.container}
+Wrapping Up
+-----------
+
+Why does this matter, again? Here's a quick summary of what you learned
+on this website:
+
+1.  Your genome is the chemical code that determines how your body
+    develops and works on a day-to-day basis.
+2.  Hospitals and doctors can determine the sequence of your genome to
+    help determine your susceptibility to certain diseases.
+3.  Direct-to-consumer companies like 23andMe will also sequence your
+    genome, but those services cannot tell you much about your health,
+    and should be taken with a grain of salt.
+4.  Whether you get your genome sequenced by a doctor or by a company,
+    your personal data will likely be stored in an encrypted database
+    which, if hacked, could make you at risk for data-based
+    discrimination. It is likely wise to be aware of how your data is
+    stored and kept safe.
+
+\
+
+**Thanks for reading! If you're still hungry for more information, here
+are some bonus resources:**
+
+-   What is consumer genetics? See the [Personal Genetics Education
+    Project](https://www.pged.org)
+-   Should you get a home genetics test? See [this article from Harvard
+    Health](https://www.health.harvard.edu/staying-healthy/should-you-get-a-home-genetic-test)
+-   For a variety of articles explaining topics in genetics and
+    genomics, see [yourgenome.org](https://yourgenome.org)
+-   For a bit more about genomic privacy, see this [article from science
+    in the
+    news](http://sitn.hms.harvard.edu/flash/2018/understanding-ownership-privacy-genetic-data/)
+:::
+:::
