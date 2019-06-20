@@ -38,6 +38,11 @@
   </url>
   
   <url>
+    <loc>https://julianstanley.com/writing/sirf-2019/</loc>
+    <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://julianstanley.com/post/connecting-a-remote-mongodb-database-with-r-shiny/</loc>
     <lastmod>2019-04-24T00:00:00+00:00</lastmod>
   </url>
@@ -60,6 +65,21 @@
   <url>
     <loc>https://julianstanley.com/tutorial/tutorial/</loc>
     <lastmod>2019-02-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://julianstanley.com/writing/goldwater-2017/</loc>
+    <lastmod>2017-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://julianstanley.com/writing/sirf-2017/</loc>
+    <lastmod>2017-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://julianstanley.com/writing/goldwater-2016/</loc>
+    <lastmod>2016-05-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>

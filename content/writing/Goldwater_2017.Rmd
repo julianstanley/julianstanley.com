@@ -1,0 +1,16 @@
+---
+title: '2017 Barry Goldwater Project Proposal'
+author: Julian Stanley 
+date: '2017-05-01'
+slug: goldwater-2017
+categories: []
+tags: []
+---
+
+# Introduction
+
+[Click here](https://github.com/julianstanley/julianstanley.com/raw/master/content/resources/Goldwater_2017.pdf)
+to view my project proposal for the 2017 Barry Goldwater award.
+
+I proposed a systematic set of assays to uncover the role of TGF-B signaling in the regulation of aging
+in *Caenorhabditis elegans*. 
