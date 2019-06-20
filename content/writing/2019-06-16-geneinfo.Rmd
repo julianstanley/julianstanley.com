@@ -7,9 +7,16 @@ categories: []
 tags: []
 ---
 
-Read here or see the fully-rendered site at 
-[geneinfo](https://geneinfo.julianstanley.com).
+# Introduction to GeneInfo
 
+As part of Interdisciplinary Advanced Writing in Summer 2019, I created an educational website about genomics. 
+
+My aim with the site was to target well-educated, English-speaking adults with an interest in genetics. I wanted to educate a broad audience of adults who may be interested in their genomci health due to the rise of clinical and direct-to-consumer testing, but for whom clinical educational materials (which are generally capped at a sixth-grade reading level) felt lacking.
+
+The fully rendered website can be accessed at 
+[geneinfo.julianstanley.com](https://geneinfo.julianstanley.com), but I've included the text of that website below as well, for easier reference.
+
+-----------------------------------
 
 ::: {#main}
 -   [Overview](#welcome)
