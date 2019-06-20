@@ -7,6 +7,17 @@ categories: []
 tags: []
 ---
 
+# Introduction
+
+I completed this interdisciplinary research proposal after two weeks of 
+collaboration with a classmate (Khailah Griffin) in Summer 2019. 
+
+Our goal was to use her knowledge of business and computer security and my knowledge
+of genomics and biology to create a proposal to address concerns about the 
+security and privacy of large genomic databases. The full text is pasted below.
+
+---------------------------------
+
 ** **
 
 ** **
