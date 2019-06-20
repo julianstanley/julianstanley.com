@@ -1,13 +1,14 @@
 ---
-title: Interdisciplinary Project Proposal
+title: GeneInfo Website
 author: Julian Stanley 
 date: '2019-06-16'
-slug: experience-using-blogdown-with-minimal-template
+slug: genetic-information-website
 categories: []
 tags: []
 ---
 
-Read here or see the fully-rendered site at [geneinfo](geneinfo.julianstanley.com)
+Read here or see the fully-rendered site at 
+[geneinfo](https://geneinfo.julianstanley.com).
 
 
 ::: {#main}

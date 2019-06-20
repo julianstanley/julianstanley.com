@@ -2,7 +2,7 @@
 title: Interdisciplinary Project Proposal
 author: Julian Stanley and Khailah Griffin
 date: '2019-06-16'
-slug: experience-using-blogdown-with-minimal-template
+slug: interdisciplinary-project-proposal
 categories: []
 tags: []
 ---
