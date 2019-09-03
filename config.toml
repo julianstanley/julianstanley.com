@@ -8,7 +8,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [params]
     author = "Julian Stanley"
-    description = "A repository of stuff that I've done"
+    description = "Personal website"
     githubUsername = "julianstanley"
     accent = "white"
     showBorder = true
