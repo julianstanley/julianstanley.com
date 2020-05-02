@@ -15,7 +15,7 @@
 
     :root {
         --accent: white;
-        --border-width:  5px ;
+        --border-width:  0 ;
     }
 
 </style>
@@ -59,7 +59,7 @@
 
 
 <script>$(document).on('click', function() { $('.collapse').collapse('hide'); })</script>
- <meta name="generator" content="Hugo 0.52" />
+ <meta name="generator" content="Hugo 0.57.2" />
         
 
         
@@ -111,13 +111,7 @@
                             
                                 <li><a href="/post/">Posts</a></li>
                             
-                                <li><a href="/project/">Projects</a></li>
-                            
-                                <li><a href="/tutorial/tutorial">Tutorials</a></li>
-                            
-                                <li><a href="/writing/">Writing Samples</a></li>
-                            
-                                <li><a href="https://scholar.google.com/citations?hl=en&amp;user=uYv-IJ8AAAAJ">Google Scholar</a></li>
+                                <li><a href="https://scholar.google.com/citations?user=N0D7hFYAAAAJ&amp;hl=en">Google Scholar</a></li>
                             
                         </ul>
                     
@@ -165,19 +159,19 @@
 </div>
 
 
-    <br> <div class="text-justify"><p>Today I upgraded the base 256 GB SSD (2.5 mm) on my Thinkpad T460 to a 1 TB <a href="https://www.amazon.com/gp/product/B078DPCY3T/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&amp;psc=1">Samsung 860 EVO</a>.</p>
+    <br> <div class="text-justify">
 
-<p>It took me a few google searches to learn how to make the transition. In the end, I used Tuxboot to make a bootable Clonezilla USB drive, and then GParted to resize my partition. Here&rsquo;s what I did step-by-step:</p>
 
-<ol>
+<p>Today I upgraded the base 256 GB SSD (2.5 mm) on my Thinkpad T460 to a 1 TB <a href="https://www.amazon.com/gp/product/B078DPCY3T/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&amp;psc=1">Samsung 860 EVO</a>.</p>
+<p>It took me a few google searches to learn how to make the transition. In the end, I used Tuxboot to make a bootable Clonezilla USB drive, and then GParted to resize my partition. Here’s what I did step-by-step:</p>
+<ol start="0" style="list-style-type: decimal">
 <li>Connect your new SSD via USB. I used <a href="https://www.amazon.com/gp/product/B00HJZJI84/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&amp;psc=1">a StarTech cable from Amazon</a>.</li>
 <li>Download Tuxboot (from the <a href="https://sourceforge.net/projects/tuxboot/files/">SourceForce Repo</a>).</li>
 <li>Extract and install Tuxboot.
-
 <ul>
 <li>I needed to run <code>apt-get install libqt4-dev</code>, <code>apt-get install mtools</code>, and then <code>./INSTALL</code>.</li>
 </ul></li>
-<li>Run <code>sudo ./tuxboot</code> to run the tuxboot GUI. On the first line, select &ldquo;On-Line Distribution&rdquo; and &ldquo;clonezilla_live_stable&rdquo;, connect an empty USB drive, select that drive on the last line, and click &ldquo;OK&rdquo;.</li>
+<li>Run <code>sudo ./tuxboot</code> to run the tuxboot GUI. On the first line, select “On-Line Distribution” and “clonezilla_live_stable”, connect an empty USB drive, select that drive on the last line, and click “OK”.</li>
 <li>After tuxboot makes a bootable clonezilla USB, boot from that USB.</li>
 <li>Follow the disk-to-disk clone tutorial from on the <a href="https://clonezilla.org/show-live-doc-content.php?topic=clonezilla-live/doc/03_Disk_to_disk_clone">Clonezilla website</a>.</li>
 <li>After restarting, download Gparted with <code>sudo apt-get gparted</code>. Follow the instructions in the GUI to resize the new disk to the full ~950 GB.</li>

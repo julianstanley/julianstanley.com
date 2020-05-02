@@ -6,9 +6,19 @@
     <description>Recent content in Categories on Julian Stanley</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sun, 05 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://julianstanley.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ubuntu</title>
+      <link>https://julianstanley.com/categories/ubuntu/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://julianstanley.com/categories/ubuntu/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>R</title>
@@ -16,15 +26,6 @@
       <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://julianstanley.com/categories/r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ubuntu</title>
-      <link>https://julianstanley.com/categories/ubuntu/</link>
-      <pubDate>Sun, 05 May 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://julianstanley.com/categories/ubuntu/</guid>
       <description></description>
     </item>
     

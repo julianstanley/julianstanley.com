@@ -8,10 +8,10 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [params]
     author = "Julian Stanley"
-    description = "Personal website"
+    description = "Computational Biologist"
     githubUsername = "julianstanley"
     accent = "white"
-    showBorder = true
+    showBorder = false
     font = "Raleway" # should match the name on Google Fonts!
     highlight = true
     highlightStyle = "Monokai Sublime"
@@ -33,24 +33,9 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     weight = 3
 
 [[menu.main]]
-    url = "/project/"
-    name = "Projects"
-    weight = 4
-    
-[[menu.main]]
-    url = "/tutorial/tutorial"
-    name = "Tutorials"
-    weight = 5
-    
-[[menu.main]]
-    url = "/writing/"
-    name = "Writing Samples"
-    weight = 6
-
-[[menu.main]]
-    url = "https://scholar.google.com/citations?hl=en&user=uYv-IJ8AAAAJ"
+    url = "https://scholar.google.com/citations?user=N0D7hFYAAAAJ&hl=en"
     name = "Google Scholar"
-    weight = 7
+    weight = 4
 
 # Social icons to be shown on the right-hand side of the navigation bar
 # The "name" field should match the name of the icon to be used
