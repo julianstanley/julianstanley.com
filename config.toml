@@ -5,6 +5,8 @@ theme = "minimal"
 googleAnalytics = "UA-109124750-1"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
+[blackfriday]
+    hrefTargetBlank = true
 
 [params]
     author = "Julian Stanley"
