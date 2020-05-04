@@ -62,7 +62,7 @@ pygmentsCodefences = true
 [[menu.main]]
     identifier = "cv"
     pre = "<i class='ai ai-cv ai-2x'></i>"
-    url = "https://github.com/julianstanley/julianstanley.com/raw/master/static/files/CV_May2020.pdf"
+    url = "https://github.com/julianstanley/julianstanley.com/blob/master/static/files/CV_May2020.pdf"
     weight = 50
 
 [[menu.main]]
