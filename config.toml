@@ -1,65 +1,80 @@
-baseURL = "https://julianstanley.com/"
-languageCode = "en-us"
+baseurl = "https://julianstanley.com/"
 title = "Julian Stanley"
-theme = "minimal"
+theme = "pulp"
 googleAnalytics = "UA-109124750-1"
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+canonifyurls = true
+hasCJKLanguage = true
+pygmentsCodefences = true
+#pygmentsUseClasses = true
 
-[blackfriday]
-    hrefTargetBlank = true
+[markup.goldmark.renderer]
+    unsafe = true # Allow user HTML tags
 
 [params]
     author = "Julian Stanley"
-    description = "Computational Biologist"
-    githubUsername = "julianstanley"
-    accent = "white"
-    showBorder = false
-    font = "Raleway" # should match the name on Google Fonts!
-    highlight = true
-    highlightStyle = "Monokai Sublime"
-    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift", "R"]
-    copyright = "Powered by [Hugo](https://gohugo.io) and [Minimal](https://github.com/calintat/minimal). Thanks for visiting! [{Website Source}](https://github.com/julianstanley/julianstanley.com)"
-[[menu.main]]
-    url = "/"
-    name = "Home"
-    weight = 1
-    
-[[menu.main]]
-    url = "/about/about"
-    name = "About"
-    weight = 2
+    avatar = "avataaars.png"
+    # avatarDescription = "My avatar description"
+    favicon = "favicon.ico"
+    description = """ 
+    Computational Biologist and PhD Student <br>
+    A human person who generally enjoys life and solving puzzles <br>
+    Please don't hesitate to reach out! <br>
+    Or, see my <a href="blog/"> blog </a> or <a href="https://twitter.com/julianstanley_" target="_blank"> twitter </a>
+    """
+    publicationYear = "2019"
+    # listPageDateFormat = "January, 2006" # See https://gohugo.io/functions/format/
+    # singlePageDateFormat = "January 2, 2006"
+    # custom_css = ["/css/custom.css"]
+    # custom_js = ["/js/custom.js"]
+
+# Make sure setting a following option for search bar to work
+[outputs]
+    section = ["JSON", "HTML"]
+    taxonomy = ["JSON", "HTML"]
 
 [[menu.main]]
-    url = "/post/"
-    name = "Posts"
-    weight = 3
+    identifier = "blog"
+    # name = "Blog" #If display text link, cancel comment out
+    pre = "<i class='fa fa-book fa-2x'></i>" #Choose your favorite font from Font Awesome
+    url = "/blog/"
+    weight = 10
 
 [[menu.main]]
-    url = "https://scholar.google.com/citations?user=N0D7hFYAAAAJ&hl=en"
-    name = "Google Scholar"
-    weight = 4
+    identifier = "twitter"
+    # name = "Twitter"
+    pre = "<i class='fab fa-twitter fa-2x'></i>"
+    url = "https://twitter.com/julianstanley_"
+    weight = 20
 
-# Social icons to be shown on the right-hand side of the navigation bar
-# The "name" field should match the name of the icon to be used
-# The list of available icons can be found at http://fontawesome.io/icons/
-
-[[menu.icon]]
-    url = "mailto:stanley.ju@husky.neu.edu"
-    name = "envelope-o"
-    weight = 1
-
-[[menu.icon]]
+[[menu.main]]
+    identifier = "github"
+    # name = "GitHub"
+    pre = "<i class='fab fa-github fa-2x'></i>"
     url = "https://github.com/julianstanley/"
-    name = "github"
-    weight = 2
+    weight = 30
 
-[[menu.icon]]
-    url = "https://twitter.com/julianstanley_/"
-    name = "twitter"
-    weight = 3
-
-[[menu.icon]]
+[[menu.main]]
+    identifer = "linkedin"
+    pre = "<i class='fab fa-linkedin-in fa-2x'></i>"
     url = "https://www.linkedin.com/in/julianstanley/"
-    name = "linkedin"
-    weight = 4
+    weight = 40
 
+[[menu.main]]
+    identifier = "cv"
+    pre = "<i class=ai ai-cv ai-2x></i>"
+    url = "https://github.com/julianstanley/julianstanley.com/raw/master/content/public/files/CV_May2020.pdf"
+    weight = 50
+
+[[menu.main]]
+    identifier = "email"
+    # name = "Email"
+    pre = "<i class='fa fa-envelope fa-2x'></i>"
+    url = "mailto:julianst@mit.edu"
+    weight = 60
+
+[[menu.main]]
+    identifier = "gscholar"
+    # name = "Email"
+    pre = "<i class='ai ai-google-scholar ai-2x'></i>"
+    url = "https://scholar.google.com/citations?user=N0D7hFYAAAAJ&hl=en"
+    weight = 70

@@ -1,0 +1,10 @@
+[
+    {
+        "ref": "https://julianstanley.com/tutorial/tutorial/",
+        "title": "Written subject tutorials",
+        "section": "tutorial",
+        "tags": ["new"],
+        "date" : "2019.02.16",
+        "body": " Genomania https://genomania.gitbook.io\nA guidebook for common tools in genomics and bioinformatics.\nFor Reals Math https://for-reals.gitbook.io/\nWritten tutorials covering select topics from calculus (through multivariable integration), linear algebra, and real analysis.\nReadableAlgo https://readablealgo.gitbook.io\nTutorials for common algorithmic problems and their solutions, along with some theory lessons.\n"
+    }
+]

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Julian Stanley</title>
+    <link>https://julianstanley.com/</link>
+    <description>Recent content on Julian Stanley</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 16 Jun 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://julianstanley.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Apfeld Lab Projects (2015-Present)</title>
+      <link>https://julianstanley.com/project/apfeld/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://julianstanley.com/project/apfeld/</guid>
+      <description>I began my work in the Apfeld lab in October 2015. At that time, the lab was brand new and the wet lab space had not been set up yet. I briefly worked on learning and writing tutorials related to the analysis of spacial oxidization patterns in C. elegans, and we&amp;rsquo;ll come back to that in 2019.
+I got into the wet lab in February 2016. After learning the ropes, I began investigating the relationships between different transcription factors related to aging.</description>
+    </item>
+    
+    <item>
+      <title>Genomania</title>
+      <link>https://julianstanley.com/tutorial/genomania/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://julianstanley.com/tutorial/genomania/</guid>
+      <description>https://genomania.gitbook.io</description>
+    </item>
+    
+    <item>
+      <title>Cygnal Therapeutics (2017-2018)</title>
+      <link>https://julianstanley.com/project/cygnal/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://julianstanley.com/project/cygnal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gunawardena Lab (2018)</title>
+      <link>https://julianstanley.com/project/gunawardena/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://julianstanley.com/project/gunawardena/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>https://julianstanley.com/project/teaching/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://julianstanley.com/project/teaching/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GeneInfo Website</title>
+      <link>https://julianstanley.com/writing/genetic-information-website/</link>
+      <pubDate>Sun, 16 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://julianstanley.com/writing/genetic-information-website/</guid>
+      <description>Introduction to GeneInfo As part of Interdisciplinary Advanced Writing in Summer 2019, I created an educational website about genomics.
+My aim with the site was to target well-educated, English-speaking adults with an interest in their health. I wanted to educate a broad audience of adults who may be interested in their genomic health due to the rise of clinical and direct-to-consumer testing, but for whom clinical educational materials (which are generally capped at a sixth-grade reading level) felt lacking.</description>
+    </item>
+    
+    <item>
+      <title>Interdisciplinary Project Proposal</title>
+      <link>https://julianstanley.com/writing/interdisciplinary-project-proposal/</link>
+      <pubDate>Sun, 16 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://julianstanley.com/writing/interdisciplinary-project-proposal/</guid>
+      <description>Introduction I completed this interdisciplinary research proposal after two weeks of collaboration with a classmate (Khailah Griffin) in Summer 2019.
+Our goal was to use her knowledge of business and computer security and my knowledge of genomics and biology to create a proposal to address concerns about the security and privacy of large genomic databases. The full text is pasted below.
+Standardizing Data Security in a Genomic Era
+Khailah Griffin and Julian Stanley</description>
+    </item>
+    
+    <item>
+      <title>Upgrading to a larger SSD on Ubuntu</title>
+      <link>https://julianstanley.com/post/upgrading-to-a-larger-ssd-on-ubuntu/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://julianstanley.com/post/upgrading-to-a-larger-ssd-on-ubuntu/</guid>
+      <description>Today I upgraded the base 256 GB SSD (2.5 mm) on my Thinkpad T460 to a 1 TB Samsung 860 EVO.
+It took me a few google searches to learn how to make the transition. In the end, I used Tuxboot to make a bootable Clonezilla USB drive, and then GParted to resize my partition. Here’s what I did step-by-step:
+Connect your new SSD via USB. I used a StarTech cable from Amazon.</description>
+    </item>
+    
+    <item>
+      <title>2019 Scholars Independent Research Fellowship Proposal</title>
+      <link>https://julianstanley.com/writing/sirf-2019/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://julianstanley.com/writing/sirf-2019/</guid>
+      <description> Introduction Click here to view my project proposal for the 2019 Scholars Independent Research Fellowship.
+I used the 2019 fellowship to improve accessibility of my mathematical model for comparing the relative suitability of real-time biosensors. For more information, see the SensorOverlord website, or the SensorOverlord GitHub repository.
+ </description>
+    </item>
+    
+    <item>
+      <title>Connecting a remote MongoDB database with R/Shiny</title>
+      <link>https://julianstanley.com/post/connecting-a-remote-mongodb-database-with-r-shiny/</link>
+      <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://julianstanley.com/post/connecting-a-remote-mongodb-database-with-r-shiny/</guid>
+      <description>a.sourceLine { display: inline-block; line-height: 1.25; } a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; } a.sourceLine:empty { height: 1.2em; } .sourceCode { overflow: visible; } code.sourceCode { white-space: pre; position: relative; } div.sourceCode { margin: 1em 0; } pre.sourceCode { margin: 0; } @media screen { div.sourceCode { overflow: auto; } } @media print { code.sourceCode { white-space: pre-wrap; } a.sourceLine { text-indent: -1em; padding-left: 1em; } } pre.</description>
+    </item>
+    
+    <item>
+      <title>What Buzzfeed Quizzes have to do with Ratiometric Microscopy</title>
+      <link>https://julianstanley.com/post/buzzfeed-quizzes-ratiometric-microscopy/</link>
+      <pubDate>Mon, 18 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://julianstanley.com/post/buzzfeed-quizzes-ratiometric-microscopy/</guid>
+      <description>Science is notoriously poorly communicated. I was recently browsing the DePace Lab Website and it linked me to a fantastic video called “Teaching Matters” by Professor Andrew Murray.
+My interest in science communication is nothing new, but the video nonetheless made me think twice about how I’m presenting my research. Not only does science need to be communicated to the public (who funds most university research) but it also needs to be better communicated to other scientists, especially those who may benefit from the research but who are in tangential fields with different jargon.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://julianstanley.com/about/about/</link>
+      <pubDate>Sun, 17 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://julianstanley.com/about/about/</guid>
+      <description>Hi, I&amp;rsquo;m Julian. I&amp;rsquo;m a researcher in Bioinformatics and Genetics with 2 years of full-time experience. I&amp;rsquo;ll graduate with a B.S. in Biology in June 2019 and an M.S. in Bioinformatics in May 2020 from Northeastern University.
+I like studying the genetics and molecular biology of living things. Increasingly, that field involves more and more computation and, with the increased ability to model processes iteratively, the systems-level approach to molecular biology seems really promising.</description>
+    </item>
+    
+    <item>
+      <title>Experience using Blogdown with Minimal template</title>
+      <link>https://julianstanley.com/post/experience-using-blogdown-with-minimal-template/</link>
+      <pubDate>Sat, 16 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://julianstanley.com/post/experience-using-blogdown-with-minimal-template/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Written subject tutorials</title>
+      <link>https://julianstanley.com/tutorial/tutorial/</link>
+      <pubDate>Sat, 16 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://julianstanley.com/tutorial/tutorial/</guid>
+      <description>Genomania https://genomania.gitbook.io
+A guidebook for common tools in genomics and bioinformatics.
+For Reals Math https://for-reals.gitbook.io/
+Written tutorials covering select topics from calculus (through multivariable integration), linear algebra, and real analysis.
+ReadableAlgo https://readablealgo.gitbook.io
+Tutorials for common algorithmic problems and their solutions, along with some theory lessons.</description>
+    </item>
+    
+    <item>
+      <title>2017 Barry Goldwater Project Proposal</title>
+      <link>https://julianstanley.com/writing/goldwater-2017/</link>
+      <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://julianstanley.com/writing/goldwater-2017/</guid>
+      <description> Introduction Click here to view my project proposal for the 2017 Barry Goldwater award.
+I proposed a systematic set of assays to uncover the role of TGF-B signaling in the regulation of aging in Caenorhabditis elegans.
+ </description>
+    </item>
+    
+    <item>
+      <title>2017 Scholars Independent Research Fellowship Proposal</title>
+      <link>https://julianstanley.com/writing/sirf-2017/</link>
+      <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://julianstanley.com/writing/sirf-2017/</guid>
+      <description> Introduction Click here to view my project proposal for the 2017 Scholars Independent Research Fellowship.
+I proposed a systematic set of assays to uncover the role of TGF-B signaling in the regulation of oxidative stress resistance in Caenorhabditis elegans.
+ </description>
+    </item>
+    
+    <item>
+      <title>2016 Barry Goldwater Project Proposal</title>
+      <link>https://julianstanley.com/writing/goldwater-2016/</link>
+      <pubDate>Sun, 01 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://julianstanley.com/writing/goldwater-2016/</guid>
+      <description> Introduction Click here to view my project proposal for the 2016 Barry Goldwater award.
+I proposed a systematic screen of the regulation between transcription factors that may regulate aging in Caenorhabditis elegans.
+ </description>
+    </item>
+    
+  </channel>
+</rss>
