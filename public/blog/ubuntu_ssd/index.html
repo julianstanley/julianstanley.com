@@ -139,12 +139,15 @@ if (!doNotTrack) {
   </div>
   <footer>
   <p>
-  &copy; 2019 Julian Stanley.
-  Powered by <a href="https://gohugo.io/">Hugo</a>
-  using the <a href="https://github.com/koirand/pulp/">pulp</a> theme.
+    &copy;
+    <span id="copyright">
+      <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+    </span>
+    Julian Stanley.
+    Powered by <a href="https://gohugo.io/">Hugo</a>
+    using the <a href="https://github.com/koirand/pulp/">pulp</a> theme.
   </p>
 </footer>
-
 
   </body>
 </html>

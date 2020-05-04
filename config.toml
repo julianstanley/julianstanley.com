@@ -15,13 +15,12 @@ pygmentsCodefences = true
     avatar = "avataaars.png"
     # avatarDescription = "My avatar description"
     favicon = "favicon.ico"
-    description = """ 
+    description = """
     Computational Biologist and PhD Student <br>
     A human person who generally enjoys life and solving puzzles <br>
     Please don't hesitate to reach out! <br>
     Or, see my <a href="blog/"> blog </a> or <a href="https://twitter.com/julianstanley_" target="_blank"> twitter </a>
     """
-    publicationYear = "2019"
     # listPageDateFormat = "January, 2006" # See https://gohugo.io/functions/format/
     # singlePageDateFormat = "January 2, 2006"
     # custom_css = ["/css/custom.css"]
