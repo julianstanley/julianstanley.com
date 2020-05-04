@@ -61,7 +61,7 @@ pygmentsCodefences = true
 
 [[menu.main]]
     identifier = "cv"
-    pre = "<i class=ai ai-cv ai-2x></i>"
+    pre = "<i class='ai ai-cv ai-2x'></i>"
     url = "https://github.com/julianstanley/julianstanley.com/raw/master/content/public/files/CV_May2020.pdf"
     weight = 50
 
@@ -78,3 +78,4 @@ pygmentsCodefences = true
     pre = "<i class='ai ai-google-scholar ai-2x'></i>"
     url = "https://scholar.google.com/citations?user=N0D7hFYAAAAJ&hl=en"
     weight = 70
+
