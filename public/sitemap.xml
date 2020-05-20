@@ -1,10 +1,45 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>https://julianstanley.com/blog/</loc>
-    <lastmod>2019-05-05T00:00:00+00:00</lastmod>
+    <lastmod>2020-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://julianstanley.com/</loc>
+    <lastmod>2020-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://julianstanley.com/tags/papers/</loc>
+    <lastmod>2020-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://julianstanley.com/blog/sensoroverlord_reviews/</loc>
+    <lastmod>2020-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://julianstanley.com/tags/peer-review/</loc>
+    <lastmod>2020-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://julianstanley.com/tags/r/</loc>
+    <lastmod>2020-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://julianstanley.com/tags/rejections/</loc>
+    <lastmod>2020-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://julianstanley.com/tags/</loc>
+    <lastmod>2020-05-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -13,22 +48,12 @@
   </url>
   
   <url>
-    <loc>https://julianstanley.com/</loc>
-    <lastmod>2019-05-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://julianstanley.com/tags/</loc>
+    <loc>https://julianstanley.com/blog/ubuntu_ssd/</loc>
     <lastmod>2019-05-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://julianstanley.com/tags/ubuntu/</loc>
-    <lastmod>2019-05-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://julianstanley.com/blog/ubuntu_ssd/</loc>
     <lastmod>2019-05-05T00:00:00+00:00</lastmod>
   </url>
   
@@ -53,11 +78,6 @@
   </url>
   
   <url>
-    <loc>https://julianstanley.com/tags/r/</loc>
-    <lastmod>2019-04-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://julianstanley.com/tags/shiny/</loc>
     <lastmod>2019-04-24T00:00:00+00:00</lastmod>
   </url>
@@ -65,51 +85,6 @@
   <url>
     <loc>https://julianstanley.com/tags/technical/</loc>
     <lastmod>2019-04-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://julianstanley.com/tags/communication/</loc>
-    <lastmod>2019-03-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://julianstanley.com/tags/ratiometric-microscopy/</loc>
-    <lastmod>2019-03-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://julianstanley.com/tags/rogfp/</loc>
-    <lastmod>2019-03-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://julianstanley.com/blog/buzzfeed_ratiometric/</loc>
-    <lastmod>2019-03-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://julianstanley.com/blog/emoji-support/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://julianstanley.com/blog/markdown-syntax/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://julianstanley.com/blog/math-typesetting/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://julianstanley.com/blog/placeholder-text/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://julianstanley.com/blog/rich-content/</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
   
 </urlset>

@@ -1,14 +1,50 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Julian Stanley</title>
     <link>https://julianstanley.com/tags/</link>
     <description>Recent content in Tags on Julian Stanley</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 05 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://julianstanley.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>papers</title>
+      <link>https://julianstanley.com/tags/papers/index.json</link>
+      <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://julianstanley.com/tags/papers/index.json</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>peer-review</title>
+      <link>https://julianstanley.com/tags/peer-review/index.json</link>
+      <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://julianstanley.com/tags/peer-review/index.json</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>https://julianstanley.com/tags/r/index.json</link>
+      <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://julianstanley.com/tags/r/index.json</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rejections</title>
+      <link>https://julianstanley.com/tags/rejections/index.json</link>
+      <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://julianstanley.com/tags/rejections/index.json</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>installation</title>
@@ -38,15 +74,6 @@
     </item>
     
     <item>
-      <title>R</title>
-      <link>https://julianstanley.com/tags/r/index.json</link>
-      <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://julianstanley.com/tags/r/index.json</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>shiny</title>
       <link>https://julianstanley.com/tags/shiny/index.json</link>
       <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
@@ -61,33 +88,6 @@
       <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
       
       <guid>https://julianstanley.com/tags/technical/index.json</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>communication</title>
-      <link>https://julianstanley.com/tags/communication/index.json</link>
-      <pubDate>Mon, 18 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://julianstanley.com/tags/communication/index.json</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ratiometric microscopy</title>
-      <link>https://julianstanley.com/tags/ratiometric-microscopy/index.json</link>
-      <pubDate>Mon, 18 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://julianstanley.com/tags/ratiometric-microscopy/index.json</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>rogfp</title>
-      <link>https://julianstanley.com/tags/rogfp/index.json</link>
-      <pubDate>Mon, 18 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://julianstanley.com/tags/rogfp/index.json</guid>
       <description></description>
     </item>
     

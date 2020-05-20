@@ -1,5 +1,5 @@
 ---
-title: Upgrading to a larger SSD on Ubuntu
+title: SSD Formatting and Install in Ubuntu 19.04
 date: '2019-05-05'
 draft: false
 tags: [

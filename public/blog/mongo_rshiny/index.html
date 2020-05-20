@@ -17,7 +17,7 @@
   
   
   
-  <link rel="stylesheet" href="https://julianstanley.com/style.min.63822a3257eaab81b78b5d5fc6e45112b4ca6f4c287acdd1f19760310b3dcb19.css" integrity="sha256-Y4IqMlfqq4G3i11fxuRRErTKb0woes3R8ZdgMQs9yxk=">
+  <link rel="stylesheet" href="https://julianstanley.com/style.min.6f642c5866835106e8a19b94463576436c99be9e41a8714ab3df3daa95f6bf90.css" integrity="sha256-b2QsWGaDUQbooZuURjV2Q2yZvp5BqHFKs989qpX2v5A=">
   
   
   
@@ -42,16 +42,13 @@ And it was actually extremely straightforward. There are great resources availab
 <meta itemprop="description" content="While making a Shiny App for a lab project (Sensor Overlord), I wanted to create a feature where users could input sensor data into a database, where it could be accessible to other users.
 I decided to give MongoDB a shot, mostly becuase of the free hosting services available on MongoDB&rsquo;s website.
 And it was actually extremely straightforward. There are great resources available online, like the mongolite user manual and the shiny persistent data storage page.">
-
-
 <meta itemprop="datePublished" content="2019-04-24T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2019-04-24T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="426">
+<meta itemprop="wordCount" content="425">
 
 
 
-<meta itemprop="keywords" content="projects,R,shiny,technical," />
-<meta name="twitter:card" content="summary"/>
+<meta itemprop="keywords" content="projects,R,shiny,technical," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:image" content="https://julianstanley.com//img/avataaars.png"/>
 <meta name="twitter:title" content="Connecting a remote MongoDB database with R/Shiny"/>
 <meta name="twitter:description" content="While making a Shiny App for a lab project (Sensor Overlord), I wanted to create a feature where users could input sensor data into a database, where it could be accessible to other users.
@@ -127,112 +124,99 @@ if (!doNotTrack) {
   
   
   <div id="contentBody">
-    
-
-<p>While making a Shiny App for a lab project (Sensor Overlord), I wanted to create
+    <p>While making a Shiny App for a lab project (Sensor Overlord), I wanted to create
 a feature where users could input sensor data into a database, where it could
 be accessible to other users.</p>
-
 <p>I decided to give MongoDB a shot, mostly becuase of the free hosting services
 available on <a href="https://mongodb.com">MongoDB&rsquo;s website</a>.</p>
-
 <p>And it was actually extremely straightforward. There are great resources
 available online, like
 <a href="https://jeroen.github.io/mongolite/">the mongolite user manual</a> and the
 <a href="https://shiny.rstudio.com/articles/persistent-data-storage.html">shiny persistent data storage page</a>.</p>
-
 <p>But it still took some troubleshooting on my part, so I wanted to share
 my mongodb.com-specific guide.</p>
-
-<h1 id="mongodb-com-free-cluster-setup-and-configuration">MongoDB.com free cluster setup and configuration</h1>
-
+<h1 id="mongodbcom-free-cluster-setup-and-configuration">MongoDB.com free cluster setup and configuration</h1>
 <ol>
 <li>Create an account on cloud.mongodb.com.</li>
 <li>Set up a basic (free) cluster, give it a name. I named mine SensorOverlordCluster.</li>
 <li>On the main cluster page, navigate to the &ldquo;Security&rdquo; tab and add a user.
-
 <ul>
 <li>I&rsquo;ll give mine the username <em>myself</em> and the password <em>letmein</em>.</li>
-</ul></li>
+</ul>
+</li>
 <li>Back on the &ldquo;Overview&rdquo; tab, click the name of your cluster.</li>
 <li>In the new screen that appears, click the &ldquo;Collections&rdquo; tab.</li>
 <li>Create a new database and write down the database and collection name.
 For mine, the database name was <em>sensordb</em> and the collection name was <em>responses</em>.</li>
 </ol>
-
 <h1 id="writing-and-reading-mongodb-from-r">Writing and reading MongoDB from R</h1>
-
 <ol>
 <li>Install the mongolite package
-
 <ul>
 <li>I&rsquo;m running Ubuntu and had to run
 <code>sudo apt-get install libssl-dev libsasl2-dev</code> to get the dependencies I
 needed for my system. See the
 <a href="https://jeroen.github.io/mongolite/">the mongolite user manual</a> for
 more info specific to your system.</li>
-<li><code>install.packages(&quot;mongolite&quot;)</code> for the CRAN version or <code>devtools::install_
-github(&quot;jeroen/mongolite&quot;)</code> for the development version.</li>
-</ul></li>
-
-<li><p>Save some data to your database. I&rsquo;ll put the code below.</p>
-
+<li><code>install.packages(&quot;mongolite&quot;)</code> for the CRAN version or <code>devtools::install_ github(&quot;jeroen/mongolite&quot;)</code> for the development version.</li>
+</ul>
+</li>
+<li>Save some data to your database. I&rsquo;ll put the code below.
 <ul>
-<li><p>Note that the host should me mnopd.mongodb.net if you&rsquo;re using mongodb.net&rsquo;s
+<li>Note that the host should me mnopd.mongodb.net if you&rsquo;re using mongodb.net&rsquo;s
 hosting service. If that doesn&rsquo;t work, check the base url that&rsquo;s given when
 you click &ldquo;connect&rdquo; on the main overviewpage on cloud.mongodb.com,
 and then click &ldquo;Connect Your Application&rdquo; and set your driver as C
 version 1.9 or later. Your eventual url input should mimic that
-&ldquo;connection string only&rdquo; field.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#66d9ef">options</span>(mongodb <span style="color:#f92672">=</span> <span style="color:#66d9ef">list</span>(
-<span style="color:#e6db74">&#34;cluster&#34;</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;sensoroverlordcluster&#34;</span>,
-<span style="color:#e6db74">&#34;host&#34;</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;mnopd.mongodb.net&#34;</span>,
-<span style="color:#e6db74">&#34;username&#34;</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;myself&#34;</span>,
-<span style="color:#e6db74">&#34;password&#34;</span> <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;letmein&#34;</span>
+&ldquo;connection string only&rdquo; field.</li>
+</ul>
+</li>
+</ol>
+<pre><code class="language-{r}" data-lang="{r}">options(mongodb = list(
+    &quot;cluster&quot; = &quot;sensoroverlordcluster&quot;,
+    &quot;host&quot; = &quot;mnopd.mongodb.net&quot;,
+    &quot;username&quot; = &quot;myself&quot;,
+    &quot;password&quot; = &quot;letmein&quot;
 ))
 
-databaseName <span style="color:#f92672">&lt;-</span> <span style="color:#e6db74">&#34;sensordb&#34;</span>
-collectionName <span style="color:#f92672">&lt;-</span> <span style="color:#e6db74">&#34;responses&#34;</span>
+databaseName &lt;- &quot;sensordb&quot;
+collectionName &lt;- &quot;responses&quot;
 
-saveData <span style="color:#f92672">&lt;-</span> <span style="color:#66d9ef">function</span>(data) {
-<span style="color:#75715e"># Connect to the database</span>
-db <span style="color:#f92672">&lt;-</span> mongo(collection <span style="color:#f92672">=</span> collectionName,
-        url <span style="color:#f92672">=</span> <span style="color:#66d9ef">sprintf</span>(
-            <span style="color:#e6db74">&#34;mongodb+srv://%s:%s@%s-%s/%s?retryWrites=true&#34;</span>,
-            <span style="color:#66d9ef">options</span>()<span style="color:#f92672">$</span>mongodb<span style="color:#f92672">$</span>username,
-            <span style="color:#66d9ef">options</span>()<span style="color:#f92672">$</span>mongodb<span style="color:#f92672">$</span>password,
-            <span style="color:#66d9ef">options</span>()<span style="color:#f92672">$</span>mongodb<span style="color:#f92672">$</span>cluster,
-            <span style="color:#66d9ef">options</span>()<span style="color:#f92672">$</span>mongodb<span style="color:#f92672">$</span>host,
-            databaseName))
+saveData &lt;- function(data) {
+    # Connect to the database
+    db &lt;- mongo(collection = collectionName,
+                url = sprintf(
+                    &quot;mongodb+srv://%s:%s@%s-%s/%s?retryWrites=true&quot;,
+                    options()$mongodb$username,
+                    options()$mongodb$password,
+                    options()$mongodb$cluster,
+                    options()$mongodb$host,
+                    databaseName))
     
-<span style="color:#75715e"># Insert the data into the mongo collection as a data.frame</span>
-data <span style="color:#f92672">&lt;-</span> <span style="color:#66d9ef">as.data.frame</span>(data)
-db<span style="color:#f92672">$</span>insert(data)
-}</code></pre></div></li>
-</ul></li>
+    # Insert the data into the mongo collection as a data.frame
+    data &lt;- as.data.frame(data)
+    db$insert(data)
+}
+</code></pre><p> </p>
+<ol start="3">
+<li>Once you use the <code>saveData(data)</code> function to save some data, you can
+load it right back up!</li>
 </ol>
-
-<p>&nbsp;</p>
-
-<ol>
-<li><p>Once you use the <code>saveData(data)</code> function to save some data, you can
-load it right back up!</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r">loadData <span style="color:#f92672">&lt;-</span> <span style="color:#66d9ef">function</span>() {
-<span style="color:#75715e"># Connect to the database</span>
-db <span style="color:#f92672">&lt;-</span> mongo(collection <span style="color:#f92672">=</span> collectionName,
-            url <span style="color:#f92672">=</span> <span style="color:#66d9ef">sprintf</span>(
-                <span style="color:#e6db74">&#34;mongodb+srv://%s:%s@%s/%s&#34;</span>,
-                <span style="color:#66d9ef">options</span>()<span style="color:#f92672">$</span>mongodb<span style="color:#f92672">$</span>username,
-                <span style="color:#66d9ef">options</span>()<span style="color:#f92672">$</span>mongodb<span style="color:#f92672">$</span>password,
-                <span style="color:#66d9ef">options</span>()<span style="color:#f92672">$</span>mongodb<span style="color:#f92672">$</span>host,
-                databaseName))
+<pre><code class="language-{r}" data-lang="{r}">loadData &lt;- function() {
+    # Connect to the database
+    db &lt;- mongo(collection = collectionName,
+                url = sprintf(
+                    &quot;mongodb+srv://%s:%s@%s/%s&quot;,
+                    options()$mongodb$username,
+                    options()$mongodb$password,
+                    options()$mongodb$host,
+                    databaseName))
     
-<span style="color:#75715e"># Read all the entries</span>
-data_output <span style="color:#f92672">&lt;-</span> db<span style="color:#f92672">$</span>find()
-data_output
-}</code></pre></div></li>
-</ol>
-
+    # Read all the entries
+    data_output &lt;- db$find()
+    data_output
+}
+</code></pre>
   </div>
   <footer>
   <p>

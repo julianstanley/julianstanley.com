@@ -1,24 +1,35 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Julian Stanley</title>
     <link>https://julianstanley.com/</link>
     <description>Recent content on Julian Stanley</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 05 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 20 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://julianstanley.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Upgrading to a larger SSD on Ubuntu</title>
+      <title>Peer Review: SensorOverlord Paper</title>
+      <link>https://julianstanley.com/blog/sensoroverlord_reviews/</link>
+      <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://julianstanley.com/blog/sensoroverlord_reviews/</guid>
+      <description>Overview and purpose I would like to keep a record of my submission history and peer review results for each of my first-author papers and grants.
+I&amp;rsquo;ve heard that the peer review process can be really disheartening for many people, and that it often involves many, many rounds of rejection.
+I also appreciate reading peer reviews, and think that they can be helpful to read after reading a published paper.</description>
+    </item>
+    
+    <item>
+      <title>SSD Formatting and Install in Ubuntu 19.04</title>
       <link>https://julianstanley.com/blog/ubuntu_ssd/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0000</pubDate>
       
       <guid>https://julianstanley.com/blog/ubuntu_ssd/</guid>
       <description>Today I upgraded the base 256 GB SSD (2.5 mm) on my Thinkpad T460 to a 1 TB Samsung 860 EVO.
 It took me a few google searches to learn how to make the transition. In the end, I used Tuxboot to make a bootable Clonezilla USB drive, and then GParted to resize my partition. Here&amp;rsquo;s what I did step-by-step:
- Connect your new SSD via USB. I used a StarTech cable from Amazon.</description>
+Connect your new SSD via USB. I used a StarTech cable from Amazon.</description>
     </item>
     
     <item>
@@ -30,65 +41,6 @@ It took me a few google searches to learn how to make the transition. In the end
       <description>While making a Shiny App for a lab project (Sensor Overlord), I wanted to create a feature where users could input sensor data into a database, where it could be accessible to other users.
 I decided to give MongoDB a shot, mostly becuase of the free hosting services available on MongoDB&amp;rsquo;s website.
 And it was actually extremely straightforward. There are great resources available online, like the mongolite user manual and the shiny persistent data storage page.</description>
-    </item>
-    
-    <item>
-      <title>What Buzzfeed Quizzes have to do with Ratiometric Microscopy</title>
-      <link>https://julianstanley.com/blog/buzzfeed_ratiometric/</link>
-      <pubDate>Mon, 18 Mar 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://julianstanley.com/blog/buzzfeed_ratiometric/</guid>
-      <description>&amp;nbsp; &amp;nbsp;
-Science is notoriously poorly communicated. I was recently browsing the DePace Lab Website and it linked me to a fantastic video called &amp;ldquo;Teaching Matters&amp;rdquo; by Professor Andrew Murray.
-My interest in science communication is nothing new, but the video nonetheless made me think twice about how I&amp;rsquo;m presenting my research. Not only does science need to be communicated to the public (who funds most university research) but it also needs to be better communicated to other scientists, especially those who may benefit from the research but who are in tangential fields with different jargon.</description>
-    </item>
-    
-    <item>
-      <title>Emoji Support</title>
-      <link>https://julianstanley.com/blog/emoji-support/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://julianstanley.com/blog/emoji-support/</guid>
-      <description>&lt;p&gt;Emoji can be enabled in a Hugo project in a number of ways.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Markdown Syntax Guide</title>
-      <link>https://julianstanley.com/blog/markdown-syntax/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://julianstanley.com/blog/markdown-syntax/</guid>
-      <description>&lt;p&gt;This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Math Typesetting</title>
-      <link>https://julianstanley.com/blog/math-typesetting/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://julianstanley.com/blog/math-typesetting/</guid>
-      <description>&lt;p&gt;Mathematical notation in a Hugo project can be enabled by using third party JavaScript libraries.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Placeholder Text</title>
-      <link>https://julianstanley.com/blog/placeholder-text/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://julianstanley.com/blog/placeholder-text/</guid>
-      <description>&lt;h2 id=&#34;mole-et-vultus-populifer-quaque-primoque-non&#34;&gt;Mole et vultus populifer quaque primoque non&lt;/h2&gt;
-
-&lt;p&gt;Lorem est tota propiore conpellat pectoribus de
-pectora summo.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Rich Content</title>
-      <link>https://julianstanley.com/blog/rich-content/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://julianstanley.com/blog/rich-content/</guid>
-      <description>&lt;p&gt;Hugo ships with several &lt;a href=&#34;https://gohugo.io/content-management/shortcodes/#use-hugo-s-built-in-shortcodes&#34;&gt;Built-in Shortcodes&lt;/a&gt; for rich content, along with a &lt;a href=&#34;https://gohugo.io/about/hugo-and-gdpr/&#34;&gt;Privacy Config&lt;/a&gt; and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.&lt;/p&gt;</description>
     </item>
     
   </channel>

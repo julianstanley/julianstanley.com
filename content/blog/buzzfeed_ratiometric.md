@@ -1,7 +1,7 @@
 ---
 title: What Buzzfeed Quizzes have to do with Ratiometric Microscopy
 date: '2019-03-18'
-draft: false
+draft: true
 tags: [
   "bioinformatics",
   "shiny",
