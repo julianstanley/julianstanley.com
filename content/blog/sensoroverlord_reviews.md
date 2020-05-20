@@ -70,9 +70,9 @@ Mirna
 Mirna Kvajo, PhD
 Editor, BMC Biology
 
-### Peer Reviews
+#### Peer Reviews
 
-#### Reviewer #1
+##### Reviewer #1
 
 Julian interpretation: Major revisions/reject. The reviewer enjoyed the manuscript, but thought it was too immature to publish in BMC biology. They recommended that we rewrite the manuscript as a methodology paper (although, I think we did submit this as a methodology paper). They do raise valid points: the method we present does not account for differences in pH or other factors (which are significant, but we can't address). They also raise issues in the idea of acquiring absolute values, which I definitely take issue with: other papers already have good rationalate for aquiring absolute values, so maybe we can make that more clear in the introduction. 
 
@@ -83,7 +83,7 @@ The biggest problem is that the authors failed to show the significance of impro
 <br><br>
 Also, the text is very difficult to read to me, because the chapter and/or subtitle is not properly formed. There is a mix of introduction and discussion in the results section. The authors wrote text about their on-going project in the results section, but it was not the result of this work and should be deleted. Unfortunately, I cannot recommend publishing the manuscript in BMC biology at this time. Again, the content is so interesting that I hope it will be better next time if obtaining additional investigations. Or, I recommend the author to rewrite the manuscript as a methodology paper to publish in the more specific journal: supplementals are informative.
 
-#### Reviewer #2
+##### Reviewer #2
 
 Julian interpretation: minor revisions. This was a super nice and helpful peer review. They make very valid points that we should talk about the application of our framework to in-vitro microplate measurements and mention that the framework assumes empirical precision, which should account for differences in fluorescence.
 
