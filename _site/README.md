@@ -6,6 +6,7 @@ A personal site, built with Jekyll from the [al-folio template](https://github.c
 
 Use `bundle exec jekyll serve` to preview changes.
 
+Use `bundle exec jekyll build` to just build. Files are located in _site. 
  
 ### Upgrading from a previous version
 
