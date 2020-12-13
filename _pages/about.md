@@ -19,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 
 **Brief CV**
 - 2020-present: PhD Student, Massachusetts Institute of Technology. 
-- 2018-2020: Masters Student, Northeastern University. Research with [Pam Silver's lab](https://silver.med.harvard.edu/) in the Department of Systems Biology at Havrard Medical School.
+- 2018-2020: Masters Student, Northeastern University. Research with [Pam Silver's lab](https://silver.med.harvard.edu/) in the Department of Systems Biology at Harvard Medical School.
 - 2015-2019: Undergraduate, Biology, Northeastern University. Thesis with [Javier Apfeld's lab](https://apfeldlab.mystrikingly.com/).
 - 2017-2018: Research Assistant at [Cygnal Therapeutics](cygnaltx.com)
 - [Full CV]("https://github.com/julianstanley/julianstanley.com/blob/master/static/files/CV_May2020.pdf")
