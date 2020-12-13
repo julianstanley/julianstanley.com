@@ -28,11 +28,6 @@
   </url>
   
   <url>
-    <loc>https://julianstanley.com/tags/r/</loc>
-    <lastmod>2020-05-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://julianstanley.com/tags/rejections/</loc>
     <lastmod>2020-05-20T00:00:00+00:00</lastmod>
   </url>
@@ -69,6 +64,11 @@
   
   <url>
     <loc>https://julianstanley.com/tags/projects/</loc>
+    <lastmod>2019-04-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://julianstanley.com/tags/r/</loc>
     <lastmod>2019-04-24T00:00:00+00:00</lastmod>
   </url>
   

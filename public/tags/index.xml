@@ -5,89 +5,85 @@
     <link>https://julianstanley.com/tags/</link>
     <description>Recent content in Tags on Julian Stanley</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 20 May 2020 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://julianstanley.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Wed, 20 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://julianstanley.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>papers</title>
-      <link>https://julianstanley.com/tags/papers/index.json</link>
+      <link>https://julianstanley.com/tags/papers/</link>
       <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://julianstanley.com/tags/papers/index.json</guid>
+      <guid>https://julianstanley.com/tags/papers/</guid>
       <description></description>
     </item>
     
     <item>
       <title>peer-review</title>
-      <link>https://julianstanley.com/tags/peer-review/index.json</link>
+      <link>https://julianstanley.com/tags/peer-review/</link>
       <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://julianstanley.com/tags/peer-review/index.json</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>R</title>
-      <link>https://julianstanley.com/tags/r/index.json</link>
-      <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://julianstanley.com/tags/r/index.json</guid>
+      <guid>https://julianstanley.com/tags/peer-review/</guid>
       <description></description>
     </item>
     
     <item>
       <title>rejections</title>
-      <link>https://julianstanley.com/tags/rejections/index.json</link>
+      <link>https://julianstanley.com/tags/rejections/</link>
       <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://julianstanley.com/tags/rejections/index.json</guid>
+      <guid>https://julianstanley.com/tags/rejections/</guid>
       <description></description>
     </item>
     
     <item>
       <title>installation</title>
-      <link>https://julianstanley.com/tags/installation/index.json</link>
+      <link>https://julianstanley.com/tags/installation/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://julianstanley.com/tags/installation/index.json</guid>
+      <guid>https://julianstanley.com/tags/installation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ubuntu</title>
-      <link>https://julianstanley.com/tags/ubuntu/index.json</link>
+      <link>https://julianstanley.com/tags/ubuntu/</link>
       <pubDate>Sun, 05 May 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://julianstanley.com/tags/ubuntu/index.json</guid>
+      <guid>https://julianstanley.com/tags/ubuntu/</guid>
       <description></description>
     </item>
     
     <item>
       <title>projects</title>
-      <link>https://julianstanley.com/tags/projects/index.json</link>
+      <link>https://julianstanley.com/tags/projects/</link>
       <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://julianstanley.com/tags/projects/index.json</guid>
+      <guid>https://julianstanley.com/tags/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>https://julianstanley.com/tags/r/</link>
+      <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://julianstanley.com/tags/r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>shiny</title>
-      <link>https://julianstanley.com/tags/shiny/index.json</link>
+      <link>https://julianstanley.com/tags/shiny/</link>
       <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://julianstanley.com/tags/shiny/index.json</guid>
+      <guid>https://julianstanley.com/tags/shiny/</guid>
       <description></description>
     </item>
     
     <item>
       <title>technical</title>
-      <link>https://julianstanley.com/tags/technical/index.json</link>
+      <link>https://julianstanley.com/tags/technical/</link>
       <pubDate>Wed, 24 Apr 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://julianstanley.com/tags/technical/index.json</guid>
+      <guid>https://julianstanley.com/tags/technical/</guid>
       <description></description>
     </item>
     
