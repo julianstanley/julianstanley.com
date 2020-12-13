@@ -1,5 +1,14 @@
 [
     {
+        "ref": "https://julianstanley.com/blog/new_post/",
+        "title": "A new test post",
+        "section": "blog",
+        "tags": ["test"],
+        "date" : "2020.12.13",
+        "body": "Test!\n"
+    }
+,
+    {
         "ref": "https://julianstanley.com/blog/sensoroverlord_reviews/",
         "title": "Peer Review: SensorOverlord Paper",
         "section": "blog",
