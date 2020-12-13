@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title> | SSD Formatting and Install in Ubuntu 19.04</title>
+<meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+">
+
+<!-- Open Graph -->
+
+
+<!-- Bootstrap & MDB -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" integrity="sha512-RO38pBRxYH3SoOprtPTD86JFOclM51/XTIdEPh5j8sj4tp8jmQIx26twG52UaLi//hQldfrh7e51WzP9wuP32Q==" crossorigin="anonymous" />
+
+<!-- Fonts & Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"  integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+<!-- Code Syntax Highlighting -->
+<link rel="stylesheet" href="https://gitcdn.link/repo/jwarby/jekyll-pygments-themes/master/github.css" />
+
+<!-- Styles -->
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<link rel="canonical" href="/blog/2019/ubuntussd/">
+
+<!-- Theming-->
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109124750-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-109124750-1');
+  </script>
+
+
+    
+<!-- MathJax -->
+<script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.1.2/es5/tex-mml-chtml.js"></script>
+<script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+
+  </head>
+
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+
+    <header>
+
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+    <div class="container">
+      
+      <a class="navbar-brand title font-weight-lighter" href="https://julianstanley.com//">
+       
+      </a>
+      
+      <!-- Navbar Toogle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">
+              about
+              
+            </a>
+          </li>
+          
+          <!-- Blog -->
+          <li class="nav-item active">
+            <a class="nav-link" href="/blog/">
+              blog
+              
+            </a>
+          </li>
+          
+          <!-- Other pages -->
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/publications/">
+                publications
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/teaching/">
+                teaching
+                
+              </a>
+          </li>
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+
+    <!-- Content -->
+
+    <div class="container mt-5">
+      
+
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">SSD Formatting and Install in Ubuntu 19.04</h1>
+    <p class="post-meta">May 5, 2019</p>
+  </header>
+
+  <article class="post-content">
+    <p>Today I upgraded the base 256 GB SSD (2.5 mm) on my Thinkpad T460 to a 1 TB <a href="https://www.amazon.com/gp/product/B078DPCY3T/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&amp;psc=1">Samsung 860 EVO</a>.</p>
+
+<p>It took me a few google searches to learn how to make the transition. In the end, I used Tuxboot to make a bootable Clonezilla USB drive, and then GParted to resize my partition. Here’s what I did step-by-step:</p>
+
+<ol>
+  <li>Connect your new SSD via USB. I used <a href="https://www.amazon.com/gp/product/B00HJZJI84/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&amp;psc=1">a StarTech cable from Amazon</a>.</li>
+  <li>Download Tuxboot (from the <a href="https://sourceforge.net/projects/tuxboot/files/">SourceForce Repo</a>).</li>
+  <li>Extract and install Tuxboot.
+    <ul>
+      <li>I needed to run <code class="language-plaintext highlighter-rouge">apt-get install libqt4-dev</code>, <code class="language-plaintext highlighter-rouge">apt-get install mtools</code>, and then <code class="language-plaintext highlighter-rouge">./INSTALL</code>.</li>
+    </ul>
+  </li>
+  <li>Run <code class="language-plaintext highlighter-rouge">sudo ./tuxboot</code> to run the tuxboot GUI. On the first line, select “On-Line Distribution” and “clonezilla_live_stable”, connect an empty USB drive, select that drive on the last line, and click “OK”.</li>
+  <li>After tuxboot makes a bootable clonezilla USB, boot from that USB.</li>
+  <li>Follow the disk-to-disk clone tutorial from on the <a href="https://clonezilla.org/show-live-doc-content.php?topic=clonezilla-live/doc/03_Disk_to_disk_clone">Clonezilla website</a>.</li>
+  <li>After restarting, download Gparted with <code class="language-plaintext highlighter-rouge">sudo apt-get gparted</code>. Follow the instructions in the GUI to resize the new disk to the full ~950 GB.</li>
+  <li>Physically install the new SSD, and you should be good to go!</li>
+</ol>
+
+  </article>
+
+  
+
+</div>
+
+    </div>
+
+    <!-- Footer -->
+
+    
+<footer class="fixed-bottom">
+  <div class="container mt-0">
+    &copy; Copyright 2020   .
+    
+    
+    Last updated: December 13, 2020.
+    
+  </div>
+</footer>
+
+
+
+  </body>
+
+  <!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+  <!-- Bootsrap & MDB scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js" integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw==" crossorigin="anonymous"></script>
+
+  
+<!-- Mansory & imagesLoaded -->
+<script defer src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script defer src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script defer src="/assets/js/mansory.js" type="text/javascript"></script>
+
+
+  
+
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+<!-- Load DarkMode JS -->
+<script src="/assets/js/dark_mode.js"></script>
+
+
+</html>
