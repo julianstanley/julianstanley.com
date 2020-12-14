@@ -3,7 +3,7 @@ layout: post
 title: "Peer Review: SensorOverlord Paper"
 date: 2020-05-20 12:00:00
 draft: false
-description: test
+description: My first long journey, summarized
 ---
 
 For years on Twitter, I've seen scientists in different degrees of celebration or dismay that correspond to different stages of the peer review process. 
@@ -12,7 +12,7 @@ It's interesting being a student in this environment. I'm probably part of the f
 
 So, when I finally finished the year-long process of writing my first primary-author paper (after hundreds of drafts, slowly improved by edits from anyone who was willing to give them), I had some vague sense of what lie ahead.
 
-About eleven months later--almost two years after my first draft--I finally have my first publication. I often have to qualify that it's *just* in Scientific Reports, just barely a " real" journal, but I'm still proud that it's out. 
+About seven months later--a year and a half or so after my first draft--I finally have my first publication. I often have to qualify that it's *just* in Scientific Reports, just barely a " real" journal, but I'm still proud that it's out. 
 
 Below is the timeline for my peer review process. I don't know why exactly I'm documenting it. To remind myself? To help others that come after me better prepare for the process? I'm not sure, but here it is.
 
@@ -36,22 +36,22 @@ We passed the editor's desk (woo!!)
 
 Then, three long months later (19 May, 2020), an email:
 
-> Please accept my apologies for this prolonged review process. 
+_> Please accept my apologies for this prolonged review process. _
 
 Oh, was it prolonged? I definitely wasn't refreshing my email every five minutes. (But actually no worries--finding reviewers seems like a damn hard job).
 
-> You will see that while the reviewers comment on the interest of the study, they have raised significant issues, [...] It might be more productive to submit the manuscript to another journal, however, if you can address the criticisms, which as we see it will require further experiments, we should be happy to see a resubmission.
+_> You will see that while the reviewers comment on the interest of the study, they have raised significant issues, [...] It might be more productive to submit the manuscript to another journal, however, if you can address the criticisms, which as we see it will require further experiments, we should be happy to see a resubmission._
 
 Ahh, bummer. Here are some snippets from those reviews:
 
 Reviewer \#1 was the big bummer. They said:
 
-> I personally enjoyed to read the manuscript. However, overall, it is too immature to publish in
-BMC biology.
+_> I personally enjoyed to read the manuscript. However, overall, it is too immature to publish in
+BMC biology._
 
 And they wanted more experiments:
 
-> The authors should pick up two or three probes, and investigate the same correlations to ones shown in Fig 1, with adding the various artificial error.
+_> The authors should pick up two or three probes, and investigate the same correlations to ones shown in Fig 1, with adding the various artificial error._
 
 This would be a decent undertaking, maybe a few months of work. Combined with the other suggestions, Javier thought it would be about a year of work. And we didn't think it was necessary: I presented a mathematically-rigorous model that was guaranteed to work under my assumptions. 
 
@@ -59,7 +59,7 @@ Ultimately, I interpreted this reviewer's reaction as a failure on my part to pr
 
 And Reviewer \#2 was very positive:
 
->  Overall I think the experiments are well executed and controlled, and the manuscript is well written. I am therefore in favor of the publication of the manuscript on BMC Biology, provided that following minor questions can be addressed satisfactorily. 
+_>  Overall I think the experiments are well executed and controlled, and the manuscript is well written. I am therefore in favor of the publication of the manuscript on BMC Biology, provided that following minor questions can be addressed satisfactorily. _
 
 And what followed were reasonable, but definitely seemed like that reviewer didn't fully understand some of our figures. 
 
@@ -77,7 +77,7 @@ Two months later--August 5th, 2020, we received a set of reviewer comments. And 
 
 The first review said:
 
-> This manuscript is quite suitable for publication in this journal. Some minor questions might be addressed in the revision:
+_> This manuscript is quite suitable for publication in this journal. Some minor questions might be addressed in the revision:_
 
 Their questions were
 
@@ -88,7 +88,7 @@ This was a really good point, which we addressed some in the paper. In some case
 
 The second review said:
 
->I would suggest a major revision by considering the following points:
+_>I would suggest a major revision by considering the following points:_
 
 But the actual points were super minor. Things like asking us to make more simplifications to our formulas and talking about how background reduction affects our results. 
 
@@ -98,7 +98,7 @@ Then we got the acceptance on September 24th, and proofs near-after (September 2
 
 On October 13th, Javier received an email from a PI in France who said:
 
-> [...] we chatted a bit some days ago on your brand new paper concerning SensorOverlord. I read it yesterday, and it is brilliant!
+_> [...] we chatted a bit some days ago on your brand new paper concerning SensorOverlord. I read it yesterday, and it is brilliant!_
 
 That made me really happy. I need to remember to email authors when I like their papers. 
 
