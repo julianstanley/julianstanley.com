@@ -2,7 +2,7 @@
 layout: about
 title: Julian Alexander Stanley
 permalink: /
-description: Computational Biologist and PhD Student, MIT
+description: (Computational) Biologist and PhD Student, MIT
 
 profile:
   align: right
@@ -18,11 +18,16 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 **Brief CV**
-- 2020-present: PhD Student, Massachusetts Institute of Technology. 
-- 2018-2020: Masters Student, Northeastern University. Research with [Pam Silver's lab](https://silver.med.harvard.edu/) in the Department of Systems Biology at Harvard Medical School.
-- 2015-2019: Undergraduate, Biology, Northeastern University. Thesis with [Javier Apfeld's lab](https://apfeldlab.mystrikingly.com/).
-- 2017-2018: Research Assistant at [Cygnal Therapeutics](https://www.cygnaltx.com)
-- [Full CV](https://github.com/julianstanley/julianstanley.com/blob/master/assets/files/CV.pdf)
+- 2020-present: PhD Student (Department of Biology), Massachusetts Institute of Technology. 
+<br><br>
+- 2018-2020: MS Bioinformatics, Northeastern University
+    - Research with [Pam Silver's lab](https://silver.med.harvard.edu/) in the Department of Systems Biology at Harvard Medical School.
+<br><br>
+- 2015-2019: BS Biology, Northeastern University. 
+    - 2015-2019: Thesis with [Javier Apfeld's lab](https://apfeldlab.mystrikingly.com/).
+    - 2017-2018: Research Assistant at [Cygnal Therapeutics](https://www.cygnaltx.com).
+   
+[Full CV](https://github.com/julianstanley/julianstanley.com/blob/master/assets/files/CV.pdf)
 
 My research interests are still developing. Generally, I'm interested in building models for how microorganisms adapt to different environments. 
 
