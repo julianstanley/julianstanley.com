@@ -78,6 +78,8 @@ footer.fixed-bottom a:hover { color: pink; text-decoration: none; }
 
 footer.sticky-bottom { border-top: 1px solid #e8e8e8; padding-top: 40px; padding-bottom: 40px; font-size: 0.9rem; }
 
+blockquote { display: block; margin-top: 1em; margin-bottom: 1em; margin-left: 40px !important; margin-right: 40px !important; color: #28a745 !important; }
+
 .header-bar { border-bottom: 1px solid #e8e8e8; text-align: center; padding-top: 2rem; padding-bottom: 5rem; }
 .header-bar h1 { color: var(--global-theme-color); font-size: 5rem; }
 

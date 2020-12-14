@@ -36,22 +36,21 @@ We passed the editor's desk (woo!!)
 
 Then, three long months later (19 May, 2020), an email:
 
-_> Please accept my apologies for this prolonged review process. _
+<blockquote> Please accept my apologies for this prolonged review process. </blockquote>
 
 Oh, was it prolonged? I definitely wasn't refreshing my email every five minutes. (But actually no worries--finding reviewers seems like a damn hard job).
 
-_> You will see that while the reviewers comment on the interest of the study, they have raised significant issues, [...] It might be more productive to submit the manuscript to another journal, however, if you can address the criticisms, which as we see it will require further experiments, we should be happy to see a resubmission._
+> You will see that while the reviewers comment on the interest of the study, they have raised significant issues, [...] It might be more productive to submit the manuscript to another journal, however, if you can address the criticisms, which as we see it will require further experiments, we should be happy to see a resubmission.
 
 Ahh, bummer. Here are some snippets from those reviews:
 
 Reviewer \#1 was the big bummer. They said:
 
-_> I personally enjoyed to read the manuscript. However, overall, it is too immature to publish in
-BMC biology._
+> I personally enjoyed to read the manuscript. However, overall, it is too immature to publish in BMC biology.
 
 And they wanted more experiments:
 
-_> The authors should pick up two or three probes, and investigate the same correlations to ones shown in Fig 1, with adding the various artificial error._
+> The authors should pick up two or three probes, and investigate the same correlations to ones shown in Fig 1, with adding the various artificial error.
 
 This would be a decent undertaking, maybe a few months of work. Combined with the other suggestions, Javier thought it would be about a year of work. And we didn't think it was necessary: I presented a mathematically-rigorous model that was guaranteed to work under my assumptions. 
 
@@ -59,7 +58,7 @@ Ultimately, I interpreted this reviewer's reaction as a failure on my part to pr
 
 And Reviewer \#2 was very positive:
 
-_>  Overall I think the experiments are well executed and controlled, and the manuscript is well written. I am therefore in favor of the publication of the manuscript on BMC Biology, provided that following minor questions can be addressed satisfactorily. _
+> Overall I think the experiments are well executed and controlled, and the manuscript is well written. I am therefore in favor of the publication of the manuscript on BMC Biology, provided that following minor questions can be addressed satisfactorily. 
 
 And what followed were reasonable, but definitely seemed like that reviewer didn't fully understand some of our figures. 
 
@@ -77,7 +76,7 @@ Two months later--August 5th, 2020, we received a set of reviewer comments. And 
 
 The first review said:
 
-_> This manuscript is quite suitable for publication in this journal. Some minor questions might be addressed in the revision:_
+> This manuscript is quite suitable for publication in this journal. Some minor questions might be addressed in the revision:
 
 Their questions were
 
@@ -88,7 +87,7 @@ This was a really good point, which we addressed some in the paper. In some case
 
 The second review said:
 
-_>I would suggest a major revision by considering the following points:_
+> I would suggest a major revision by considering the following points:
 
 But the actual points were super minor. Things like asking us to make more simplifications to our formulas and talking about how background reduction affects our results. 
 
@@ -98,7 +97,7 @@ Then we got the acceptance on September 24th, and proofs near-after (September 2
 
 On October 13th, Javier received an email from a PI in France who said:
 
-_> [...] we chatted a bit some days ago on your brand new paper concerning SensorOverlord. I read it yesterday, and it is brilliant!_
+> [...] we chatted a bit some days ago on your brand new paper concerning SensorOverlord. I read it yesterday, and it is brilliant!
 
 That made me really happy. I need to remember to email authors when I like their papers. 
 
