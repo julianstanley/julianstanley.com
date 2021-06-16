@@ -8,7 +8,7 @@ description: My first long journey, summarized
 
 For years on Twitter, I've seen scientists in different degrees of celebration or dismay that correspond to different stages of the peer review process. 
 
-It's interesting being a student in this environment. I'm probably part of the first generation of students to see some of the inner-workings of the scientific community before really being a part of it. If I was a student in the 80s, I might've been well into my PhD before being privy to professorly complaints about the peer review process.
+It's interes[README](C:\Users\julia\Dropbox (MIT)\Li Lab Dropbox\Lab data\Rotations\2021\Julian\README)ting being a student in this environment. I'm probably part of the first generation of students to see some of the inner-workings of the scientific community before really being a part of it. If I was a student in the 80s, I might've been well into my PhD before being privy to professorly complaints about the peer review process.
 
 So, when I finally finished the year-long process of writing my first primary-author paper (after hundreds of drafts, slowly improved by edits from anyone who was willing to give them), I had some vague sense of what lie ahead.
 

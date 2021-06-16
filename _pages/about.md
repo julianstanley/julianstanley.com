@@ -19,6 +19,7 @@ social: true  # includes social icons at the bottom of the page
 
 **Brief CV**
 - 2020-present: PhD Student (Department of Biology), Massachusetts Institute of Technology. 
+    - [Gene-Wei Li lab](http://gwli.scripts.mit.edu/group/). Currently studying RNA decay and translation in _E. coli_. 
 <br><br>
 - 2018-2020: MS Bioinformatics, Northeastern University
     - Research with [Pam Silver's lab](https://silver.med.harvard.edu/) in the Department of Systems Biology at Harvard Medical School.
