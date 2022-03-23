@@ -18,7 +18,12 @@ I was one of three TAs for an introductory biology course, where I was in charge
 
 I really enjoyed designing content for my recitations and leading discussions. While we were given papers and problems to discuss during recitations, the course instructor (Dr. Moni Avello) was fantastic about giving TAs lots of autonomy over recitation sections, and helping us learn to write good pset and exam questions.
 
-My evaluations were generally positive--the highest overall rating on the teaching team. You can find my [full course evaluations here](https://github.com/julianstanley/julianstanley.com/blob/master/assets/files/evaluations_fall2021_7015.pdf). 
+I thrive on positive feedback and was happy have high evaluations for this course. You can find my [full course evaluation here](https://github.com/julianstanley/julianstanley.com/blob/master/assets/files/evaluations_fall2021_7015.pdf). Four students left comments:
+
+* Student 2655 - Extremely thoughtful and supportive. Super positive learning experience!
+* Student 15451 - I found these recitations to be incredibly helpful. He always made sure we were prepared for psets and exams and was always willing to answer questions.
+* Student 28946 - Wonderful teacher, did a great job of explaining questions and telling us what we needed to knwo to perform well in the class.
+* Student 47110 - Thanks for being an awesome TA - you carried me through this class and were super helping in answering all of my questions. 
 
 Our TA training coordinator, Dr. Summer Morill, recorded one of my recitation sessions to use for future TA training. There are three parts of the recitation, which I've uploaded as unlisted youtube videos here:
 
