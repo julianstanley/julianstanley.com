@@ -6,9 +6,30 @@ description: Classes I've contributed to.
 nav: true
 ---
 
+## Spring 2022 - Fall 2023
+
+No teaching during this period, besides mentoring in the lab. I'll resume more formal teaching training after my preliminary exam.
+
+## Fall 2021
+
+### Introductory Biology (7.015)
+
+I was one of three TAs for an introductory biology course, where I was in charge of one of three recitation sections that met twice-per-week.
+
+I really enjoyed designing content for my recitations and leading discussions. While we were given papers and problems to discuss during recitations, the course instructor (Dr. Moni Avello) was fantastic about giving TAs lots of autonomy over recitation sections, and helping us learn to write good pset and exam questions.
+
+My evaluations were generally positive--the highest overall rating on the teaching team. You can find my [full course evaluations here](https://github.com/julianstanley/julianstanley.com/blob/master/assets/files/evaluations_fall2021_7015.pdf). 
+
+Our TA training coordinator, Dr. Summer Morill, recorded one of my recitation sessions to use for future TA training. There are three parts of the recitation, which I've uploaded as unlisted youtube videos here:
+
+* [Part 1](https://youtu.be/Q_gk6sgfRgY)
+* [Part 2](https://youtu.be/zrViY6luIr0)
+* [Part 3](https://youtu.be/euh3gPq_yDY)
+
 
 ## Fall 2020 - Summer 2021 
-No teaching during this period (busy with starting my PhD!). I'll resume TAing in Fall 2021.
+
+No teaching during this period while completed PhD coursework and rotations.
 
 ## Summer 2020
 
@@ -29,7 +50,8 @@ This was a TA position for a core graduate bioinformatics class. I managed the o
 This was a TA position for a core graduate bioinformatics class. I helped Dr. Chuck Roesel transition the curriculum onto a online textbook hosted on GitBook.
 
 ## Spring 2017-Summer 2019
-No teaching
+
+No teaching during this period while I focused on my undergraduate thesis in the Apfeld Lab.
 
 
 ## Fall 2016
