@@ -47,8 +47,8 @@ google_analytics: UA-109124750-1 # out your google-analytics code
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: Julian Stanley's Blog  # your blog must have a name for it to show up in the nav bar
-blog_description: Still figuring out how to science
+blog_name: Blog & Pages # your blog must have a name for it to show up in the nav bar
+blog_description: Articles, opinions, and (hopefully) helpful guides.
 permalink: /blog/:year/:title/
 
 # Pagination
