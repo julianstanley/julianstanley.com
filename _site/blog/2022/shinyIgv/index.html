@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title> | teaching</title>
+<title> | shinyIGV Example</title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 ">
 
@@ -29,7 +29,7 @@
 <link rel="shortcut icon" href="/assets/img/favicon.ico">
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/teaching/">
+<link rel="canonical" href="/blog/2022/shinyIgv/">
 
 <!-- Theming-->
 
@@ -86,7 +86,7 @@
           </li>
           
           <!-- Blog -->
-          <li class="nav-item ">
+          <li class="nav-item active">
             <a class="nav-link" href="/blog/">
               blog
               
@@ -116,11 +116,9 @@
           
           
           
-          <li class="nav-item active">
+          <li class="nav-item ">
               <a class="nav-link" href="/teaching/">
                 teaching
-                
-                <span class="sr-only">(current)</span>
                 
               </a>
           </li>
@@ -138,83 +136,47 @@
     <!-- Content -->
 
     <div class="container mt-5">
-      <div class="post">
+      
+
+<div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">teaching</h1>
-    <p class="post-description">Classes I've contributed to.</p>
+    <h1 class="post-title">shinyIGV Example</h1>
+    <p class="post-meta">March 25, 2022</p>
   </header>
 
-  <article>
-    <h2 id="spring-2022---fall-2023">Spring 2022 - Fall 2023</h2>
+  <article class="post-content">
+    <h2 id="goals">Goals</h2>
 
-<p>No teaching during this period, besides mentoring in the lab. I’ll resume more formal teaching training after my preliminary exam.</p>
+<h3 id="introducing-rend-seq-data">Introducing Rend-Seq data</h3>
+<p>The Li Lab generates end-enriched RNA sequencing (Rend-Seq) data that looks something like this:</p>
 
-<h2 id="fall-2021">Fall 2021</h2>
+<p><img width="1345" alt="image" src="https://user-images.githubusercontent.com/22749289/160170871-f560c50b-d403-4225-a63c-357a3b5ac225.png" /></p>
 
-<h3 id="introductory-biology-7015">Introductory Biology (7.015)</h3>
+<p>In the bottom pane, we can see the <em>mrp</em> is a gene on the minus (reverse) strand of the <em>E. coli</em> genome and <em>metG</em> is a gene on the plus (forward) strand of the genome.</p>
 
-<p>I was one of three TAs for an introductory biology course, where I was in charge of one of three recitation sections that met twice-per-week.</p>
+<p>The top pane shows end-enriched reads from the plus strand and the middle pane shows reads from the minus strand. 5’ (often transcription start) peaks are in blue, and 3’ (often transcription stop) peaks are in red. So, for example, we can see that <em>metG</em> has strong 3’ peak at the end of the transcript, but not as strong of a 5’ peak. In contrast, <em>mrp</em> has approximately equally-strong 5’ and 3’ peaks.</p>
 
-<p>I really enjoyed designing content for my recitations and leading discussions. While we were given papers and problems to discuss during recitations, the course instructor (Dr. Moni Avello) was fantastic about giving TAs lots of autonomy over recitation sections, and helping us learn to write good pset and exam questions.</p>
+<h3 id="peak-calling">Peak Calling</h3>
 
-<p>I thrive on positive feedback and was happy have high evaluations for this course. You can find my <a href="https://github.com/julianstanley/julianstanley.com/blob/master/assets/files/evaluations_fall2021_7015.pdf">full course evaluation here</a>. Four students left comments:</p>
+<h4 id="introduction">Introduction</h4>
 
-<ul>
-  <li>Student 2655 - Extremely thoughtful and supportive. Super positive learning experience!</li>
-  <li>Student 15451 - I found these recitations to be incredibly helpful. He always made sure we were prepared for psets and exams and was always willing to answer questions.</li>
-  <li>Student 28946 - Wonderful teacher, did a great job of explaining questions and telling us what we needed to knwo to perform well in the class.</li>
-  <li>Student 47110 - Thanks for being an awesome TA - you carried me through this class and were super helping in answering all of my questions.</li>
-</ul>
+<p>By eye, it is easy to see end-enriched peaks in the data above. Our eyes are fairly adept at spotting peaks, but it can be a time-consuming process to annotate all peaks in the genome (Li Lab member Mandy Levine did just this with the small T4 genome and it took hundreds of hours).</p>
 
-<p>Our TA training coordinator, Dr. Summer Morill, recorded one of my recitation sessions to use for future TA training. There are three parts of the recitation, which I’ve uploaded as unlisted youtube videos here:</p>
+<p>For example, take a look at this genomic region:</p>
 
-<ul>
-  <li><a href="https://youtu.be/Q_gk6sgfRgY">Part 1</a></li>
-  <li><a href="https://youtu.be/zrViY6luIr0">Part 2</a></li>
-  <li><a href="https://youtu.be/euh3gPq_yDY">Part 3</a></li>
-</ul>
+<p><img width="543" alt="image" src="https://user-images.githubusercontent.com/22749289/160172166-3409d066-5c9b-49ab-bd03-710c894d7d3b.png" /></p>
 
-<h2 id="fall-2020---summer-2021">Fall 2020 - Summer 2021</h2>
+<p>It’s relatively easy to see real peaks between the thiM and rcnR gene bodies. However, the signals that we see through the thiM gene body don’t seem biological: those are probably sequencing artificats. Computationally, it might not be trivial to distinguish between these two.</p>
 
-<p>No teaching during this period while completed PhD coursework and rotations.</p>
+<h4 id="implementation">Implementation</h4>
 
-<h2 id="summer-2020">Summer 2020</h2>
+<p>TODO</p>
 
-<h3 id="molecular-biology-dna-replication--repair-7281x-7283x">Molecular Biology: DNA Replication &amp; Repair (7.28.1x-7.28.3x)</h3>
-
-<p>This was an online, community TA position for MITxbio. I had a great time teaching (and learning among) students from all over the world in the discussion forums.</p>
-
-<h2 id="spring-2020">Spring 2020</h2>
-
-<h3 id="bioinformatics-computational-methods-2-binf6309">Bioinformatics Computational Methods 2 (BINF6309)</h3>
-
-<p>This was a TA position for a core graduate bioinformatics class. I managed the online materials (deploying through GitHub and GitBook) and wrote a few dozen pages of materials about basic bioinformatics algorithms. I was also invited to give a guest lecture on clustering and distance metrics (unexpectedly, my lecture was the last in-person lecture before we went virtual due to the COVID-19 pandemic).</p>
-
-<h2 id="fall-2019">Fall 2019</h2>
-
-<h3 id="bioinformatics-computational-methods-1-binf6308">Bioinformatics Computational Methods 1 (BINF6308)</h3>
-
-<p>This was a TA position for a core graduate bioinformatics class. I helped Dr. Chuck Roesel transition the curriculum onto a online textbook hosted on GitBook.</p>
-
-<h2 id="spring-2017-summer-2019">Spring 2017-Summer 2019</h2>
-
-<p>No teaching during this period while I focused on my undergraduate thesis in the Apfeld Lab.</p>
-
-<h2 id="fall-2016">Fall 2016</h2>
-
-<h3 id="laboratory-for-genetics-and-molecular-biology-biol2302-northeastern-university">Laboratory for Genetics and Molecular Biology (BIOL2302, Northeastern University)</h3>
-<p>This was a curriculum development project. I wrote some modules with background, exercises, etc. for Northeastern’s undergraduate genetics lab.</p>
-
-<h2 id="summer-2016">Summer 2016</h2>
-<h3 id="techniques-in-biology-biol2309-northeastern-university">Techniques in Biology (BIOL2309, Northeastern University)</h3>
-<p>This was a teaching-assistant (TA) position for a small (~12) laboratory course. I think the course is now called Biology Project Laboratory. It was super practical, teaching to pipette, do PCR, etc. I also got to help students develop independent mini-projects.</p>
-
-<h2 id="spring-2016">Spring 2016</h2>
-<h3 id="laboratory-for-general-chemistry-i-chem-1217-northeastern-university">Laboratory for General Chemistry I (CHEM 1217, Northeastern University)</h3>
-<p>This was a curriculum development project. It was a lot of fun, I was part of a small team that re-developed our introductory chemistry lab to be project-oriented and incorporate elements from research being conducted on-campus.</p>
 
   </article>
+
+  
 
 </div>
 
